@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="UI" ID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}" PersistMode="Reference"/>
+				<WorkUnit Name="Gameplay" ID="{77F93D4B-590C-4DD2-9CC6-FEC8538393CA}" PersistMode="Reference"/>
+				<Sound Name="retro_damage_hurt_ouch_49" ID="{4AD33861-EF72-4548-90D7-1E61A44199C0}" ShortID="1026666015">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="retro_damage_hurt_ouch_49" ID="{4D424F03-8228-487C-A98F-F12C17EAAF96}">
+							<Language>SFX</Language>
+							<AudioFile>retro_damage_hurt_ouch_49.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="591546019"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="retro_damage_hurt_ouch_49" ID="{4D424F03-8228-487C-A98F-F12C17EAAF96}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="retro_damage_hurt_ouch_55" ID="{1024459C-5E8B-4DB2-AF5C-30F187645A2A}" ShortID="964798331">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="retro_damage_hurt_ouch_55" ID="{3B58690F-FF6F-4810-958E-3A30A0611C84}">
+							<Language>SFX</Language>
+							<AudioFile>retro_damage_hurt_ouch_55.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="567582326"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="retro_damage_hurt_ouch_55" ID="{3B58690F-FF6F-4810-958E-3A30A0611C84}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="retro_damage_hurt_ouch_47" ID="{C26F4152-FB34-4768-BCDC-855A22C53431}" ShortID="688778456">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="retro_damage_hurt_ouch_47" ID="{65DDD779-0789-49DF-8B2F-755317D85536}">
+							<Language>SFX</Language>
+							<AudioFile>retro_damage_hurt_ouch_47.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="403333154"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="retro_damage_hurt_ouch_47" ID="{65DDD779-0789-49DF-8B2F-755317D85536}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

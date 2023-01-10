@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2032300677	UI_Button_Audio			\Default Work Unit\UI\UI_Button_Audio	
+	2414566500	UI_Button_Medium			\Default Work Unit\UI\UI_Button_Medium	
+	2556651335	UI_Button_Easy			\Default Work Unit\UI\UI_Button_Easy	
+	2726853616	UI_Button_Help			\Default Work Unit\UI\UI_Button_Help	
+	2826930930	UI_Button_Hard			\Default Work Unit\UI\UI_Button_Hard	
+	3527493374	UI_Button_Restart			\Default Work Unit\UI\UI_Button_Restart	
+	4079845416	UI_Button_Main_Menu			\Default Work Unit\UI\UI_Button_Main_Menu	
+	4235982132	UI_Button_Quit			\Default Work Unit\UI\UI_Button_Quit	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1564184899	SFX_Volume			\Default Work Unit\SFX_Volume	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	428874232	retro_blip_beep_34	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\retro_blip_beep_34_EB0C5B6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Buttons\UI_Button_Medium\retro_blip_beep_34		2157
+	587733577	ui_button_simple_click_07	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\ui_button_simple_click_07_7FB50428.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Buttons\UI_Button_Medium\ui_button_simple_click_07		2145
+

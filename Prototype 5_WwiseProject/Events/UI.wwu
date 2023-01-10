@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{062B175B-F14F-4DCC-83DB-D676AB1FEF6B}" SchemaVersion="103" RootDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" ParentDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}">
+	<Events>
+		<WorkUnit Name="UI" ID="{062B175B-F14F-4DCC-83DB-D676AB1FEF6B}" OwnerID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="UI_Button_Hard" ID="{8840DDC2-7EE2-46AD-B937-B0B2CA8C7DDC}">
+					<ChildrenList>
+						<Action Name="" ID="{2064B1AC-BDC1-4B85-A2BA-A2A166105804}" ShortID="620372241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Hard" ID="{93A12231-C025-491D-B729-A27ACA63B16F}" WorkUnitID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Button_Medium" ID="{EBD99600-07FA-4905-938C-08F076311B94}">
+					<ChildrenList>
+						<Action Name="" ID="{561FB3F4-64F5-4A44-89F3-3201B1698792}" ShortID="550821221">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Medium" ID="{77D87C07-2BC0-40E4-8B7F-5E7109B98165}" WorkUnitID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Button_Easy" ID="{12F03582-4E4B-4637-97A0-B806A36E1FDC}">
+					<ChildrenList>
+						<Action Name="" ID="{5438EB01-7AA7-45A9-8FD6-A7230E116A60}" ShortID="815765091">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Easy" ID="{28CFF059-929F-4EB2-A630-F8A1E5CB852E}" WorkUnitID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Button_Main_Menu" ID="{98C67290-0F5F-44E5-BC61-7723A880FE7E}">
+					<ChildrenList>
+						<Action Name="" ID="{D64A5BF2-3C67-4AE4-BA5B-7B0551ABFD2A}" ShortID="1027623334">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Main_Menu" ID="{096CB7A5-D696-4F86-B638-BB733D4CBD14}" WorkUnitID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Button_Help" ID="{D9A25F00-83DB-4F18-B03A-F6DD1EF06C0C}">
+					<ChildrenList>
+						<Action Name="" ID="{254202D1-6841-4188-BE7B-9BF9DDD21D94}" ShortID="667391263">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Help" ID="{8CD46D80-BFA5-48D8-84C1-9BF6E0DFE5E5}" WorkUnitID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Button_Audio" ID="{5F5ED6BF-3704-4ACC-95E1-0304BAD5025D}">
+					<ChildrenList>
+						<Action Name="" ID="{36C904C8-7F60-4B6D-BF6E-8E2B42F46FA4}" ShortID="62725108">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Audio" ID="{E0F14D10-8DDE-4764-A50F-5EBF6F5FD859}" WorkUnitID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Button_Restart" ID="{7F53C077-23A4-4757-A3FD-72462DEE4763}">
+					<ChildrenList>
+						<Action Name="" ID="{640F5458-7D5A-4FB7-9E8B-C72B58429BB0}" ShortID="876281645">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Restart" ID="{7579A008-7E7E-4124-AABD-EDFF06823239}" WorkUnitID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Button_Quit" ID="{309BE1B0-445A-42D4-933D-BDEE4EE36E61}">
+					<ChildrenList>
+						<Action Name="" ID="{292BA88E-2BFF-4D64-9A1F-970F9D8F7F60}" ShortID="147330815">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Button_Quit" ID="{7E57E309-F72F-4BDD-B87F-9692AAC63C31}" WorkUnitID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

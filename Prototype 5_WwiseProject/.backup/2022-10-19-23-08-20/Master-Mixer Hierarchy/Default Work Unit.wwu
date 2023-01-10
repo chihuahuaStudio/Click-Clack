@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{92206783-1E20-4368-B335-1B6578AA94EC}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{92206783-1E20-4368-B335-1B6578AA94EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{383DCBCE-2A7A-41D9-B0D9-7B0F8A783DE6}" ShortID="1057969285">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Master_Volume" ID="{E3FF5390-92A4-435D-AFF3-74B67A3DE2D6}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8470524B-38AD-4B87-A2F5-830C37016F33}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{196C3676-AA97-4C9D-B53E-37422C81C36D}" WorkUnitID="{63BE8566-795F-4CEC-B480-777676080F8D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{93126BFC-0F68-485C-B91C-21FE72E79F5F}">
+							<ChildrenList>
+								<AuxBus Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Robotic_Trash" ID="{18FEB1E8-36C5-4B2D-959A-8F3CE9ECBB0E}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{523D1B23-FCFB-4D44-984F-7E33AACB0E18}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

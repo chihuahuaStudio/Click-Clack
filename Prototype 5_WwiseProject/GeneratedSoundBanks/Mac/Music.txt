@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Music\Play_Music	
+	4158285989	GameOver			\Default Work Unit\Music\GameOver	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music			
+	1551306167	UI	Music			
+	2586383859	Gameplay_Hard	Music			
+	3416629257	GamepLay_Medium	Music			
+	3667619686	Gameplay_Easy	Music			
+	4158285989	GameOver	Music			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
+	3710016230	Music_Playback			\Default Work Unit\Music\Music_Playback	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	61520305	Theme_Bridge_160_44_8m_Medium	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Theme_Bridge_160_44_8m_Medium_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music Medium\Theme_Bridge_160_44_8m_Medium\Theme_Bridge_160_44_8m_Medium		146331
+	74117674	Main_Theme2_160_44_8M_Easy	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Main_Theme2_160_44_8M_Easy_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music\Main_Theme2_160_44_8M_Easy\Main_Theme2_160_44_8M_Easy		143885
+	80165475	Theme_Bridge_160_44_8m_Hard	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Theme_Bridge_160_44_8m_Hard_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music Hard\Theme_Bridge_160_44_8m_Hard\Theme_Bridge_160_44_8m_Hard		147030
+	88414074	Theme_Bridge_160_44	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Master Stems\Theme_Bridge_160_44_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\UI Music\Theme_Bridge_160_02\Theme_Bridge_160_44		196383
+	188471864	Theme_Bridge_160_44_8M_Easy	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Theme_Bridge_160_44_8M_Easy_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music\Theme_Bridge_160_44_8M_Easy\Theme_Bridge_160_44_8M_Easy		148328
+	235808038	Main_Theme3_160_44_8M_Easy	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Main_Theme3_160_44_8M_Easy_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music\Main_Theme3_160_44_8M_Easy\Main_Theme3_160_44_8M_Easy		145152
+	511380606	Main_Theme3_160_44_8M_Medium	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Main_Theme3_160_44_8M_Medium_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music Medium\Main_Theme3_160_44_8M_Medium\Main_Theme3_160_44_8M_Medium		144936
+	578778536	Main_Theme2_160_44_8M_Medium	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Main_Theme2_160_44_8M_Medium_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music Medium\Main_Theme2_160_44_8M_Medium\Main_Theme2_160_44_8M_Medium		146084
+	665706815	Main_Theme_160_44_8M_Easy	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Main_Theme_160_44_8M_Easy_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music\Main_Theme_160_44_8M_Easy\Main_Theme_160_44_8M_Easy		146084
+	666106648	Main_Theme3_160_44_8M_Hard	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Main_Theme3_160_44_8M_Hard_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music Hard\Main_Theme3_160_44_8M_Hard\Main_Theme3_160_44_8M_Hard		149508
+	689256366	Main_Theme_160_44_8M_Medium	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Main_Theme_160_44_8M_Medium_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music Medium\Main_Theme_160_44_8M_Medium\Main_Theme_160_44_8M_Medium		147737
+	883506656	Main_Theme2_160_44_8M_Hard	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Main_Theme2_160_44_8M_Hard_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music Hard\Main_Theme2_160_44_8M_Hard\Main_Theme2_160_44_8M_Hard		145705
+	1039184121	Main_Theme_160_44_8M_Hard	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\Main_Theme_160_44_8M_Hard_72E55134.wem		\Interactive Music Hierarchy\Default Work Unit\Gameplay\Music\GamePlay Music Hard\Main_Theme_160_44_8M_Hard\Main_Theme_160_44_8M_Hard		149304
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06943E6A-88FF-4AEF-A641-A840674BFBD9}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{06943E6A-88FF-4AEF-A641-A840674BFBD9}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music" ID="{928DBD5D-0E59-4418-A093-C4F3C56BB162}">
+					<ChildrenList>
+						<State Name="None" ID="{ABA22D17-DC44-4571-BA06-032118EF3168}"/>
+						<State Name="UI" ID="{5E1D734E-CAE9-4852-B215-D6CAC94C4A25}"/>
+						<State Name="Gameplay_Easy" ID="{28A8BDBC-F84C-4846-8B68-DB368CBAF2FD}"/>
+						<State Name="GamepLay_Medium" ID="{627E2FA8-AFBF-4E59-A073-73E716AAC8FA}"/>
+						<State Name="Gameplay_Hard" ID="{32CC5E72-E95C-4F21-ACA7-BFF4C6087967}"/>
+						<State Name="GameOver" ID="{3B5EDB5D-E75B-4922-BEEE-FE67B898E34F}"/>
+					</ChildrenList>
+				</StateGroup>
+				<WorkUnit Name="Game Music" ID="{CCCF68FD-F37C-4B29-8869-A203879A1371}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F353055B-1BE0-4E01-9C83-737302165535}" SchemaVersion="103" RootDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" ParentDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}">
+	<Events>
+		<WorkUnit Name="Music" ID="{F353055B-1BE0-4E01-9C83-737302165535}" OwnerID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{91DAC5E2-2270-419B-8610-862D7EC20DD0}">
+					<ChildrenList>
+						<Action Name="" ID="{9FF0E00C-6AB8-4710-92C0-508BA6D20FD1}" ShortID="573530083">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI" ID="{5E1D734E-CAE9-4852-B215-D6CAC94C4A25}" WorkUnitID="{06943E6A-88FF-4AEF-A641-A840674BFBD9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4CD81CD5-CE41-41B2-805B-0B3F6143D465}" ShortID="664642306">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{5DC80608-C313-4165-A998-C9FDE4B1F08A}" WorkUnitID="{2622A4AE-2BED-424A-8678-CE722117043E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameOver" ID="{BBE6CB7E-5F83-4816-BC87-CFADD4A9A5DE}">
+					<ChildrenList>
+						<Action Name="" ID="{2B9285EC-7815-484C-8E56-EFBF3BA81E65}" ShortID="328245118">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Playback" ID="{D9FADB0E-7383-4C71-B676-967599A99B40}" WorkUnitID="{7E6C7FEC-1A5C-4BB2-8712-5FC2D22F1A3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EC1B6B02-2B95-47FB-AEC9-9EE9F43D695C}" ShortID="782940865">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{5DC80608-C313-4165-A998-C9FDE4B1F08A}" WorkUnitID="{2622A4AE-2BED-424A-8678-CE722117043E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1FE1F3B6-935A-4FA5-B72A-8E5E65967DA4}" ShortID="766572800">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Playback" ID="{D9FADB0E-7383-4C71-B676-967599A99B40}" WorkUnitID="{7E6C7FEC-1A5C-4BB2-8712-5FC2D22F1A3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

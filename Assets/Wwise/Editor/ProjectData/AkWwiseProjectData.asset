@@ -1,0 +1,496 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50638aace0bda406bb18a4e6e4090134, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d89c1c98e081ab4bbdc6d0fadda589de
+    GuidInternal: 
+    m_lastTime: -8585353715835829159
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 83672092201e6843b3351b6578aa94ec
+    GuidInternal: 
+    m_lastTime: -8585353715836542686
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus
+    - name: Music
+      guid: 231b3d52fbfc444d984f7e33aacb0e18
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Music
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus/Music
+    - name: SFX
+      guid: fc6b1293680f5c48b91c21fe72e79f5f
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus/SFX
+    - name: SFX_reverb
+      guid: cb86c01bc2942d408e8cf66360d8a011
+      id: 3792279061
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      - ElementName: SFX_reverb
+        ObjectType: 1
+      Path: Default Work Unit/Master Audio Bus/SFX/SFX_reverb
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 02c60956549ccb46bf953cf125b14122
+    GuidInternal: 
+    m_lastTime: -8585353715836035462
+    List:
+    - name: Gameplay
+      guid: 8115e86c1df8394987489ba76f24a36d
+      id: 89505537
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 7
+      Path: Default Work Unit/Gameplay
+    - name: Music
+      guid: c9f4c2b9730b0740bf7e47f52bdb890b
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit/Music
+    - name: UI
+      guid: 5d9041d364ae6443bbb1e89fb7173320
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 7
+      Path: Default Work Unit/UI
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: b5fbec0e804a1840bc4037e30afe9358
+    GuidInternal: 
+    m_lastTime: -8585353715836350207
+    List: []
+  - PhysicalPath: Events/Gameplay.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Gameplay
+      ObjectType: 12
+    ParentPath: Default Work Unit/Gameplay
+    guid: 6caa24b97cb1f944aa8d7485327478e6
+    GuidInternal: 
+    m_lastTime: -8585353715836261173
+    List:
+    - name: Play_Bomb_Target
+      guid: 775223dfc746ad44bc328118d660501d
+      id: 2004433286
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 12
+      - ElementName: Play_Bomb_Target
+        ObjectType: 3
+      Path: Default Work Unit/Gameplay/Play_Bomb_Target
+      maxAttenuation: 0
+      maxDuration: 1.452787
+      minDuration: 0.734222
+    - name: Play_GoodTarget_Sound
+      guid: a872d7c5a1b50246bf49e76e73f5065d
+      id: 1273958970
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 12
+      - ElementName: Play_GoodTarget_Sound
+        ObjectType: 3
+      Path: Default Work Unit/Gameplay/Play_GoodTarget_Sound
+      maxAttenuation: 0
+      maxDuration: 0.50254
+      minDuration: 0.142822
+    - name: Play_Target_throw
+      guid: 335c9093ab9bd240a897d533188627a7
+      id: 3024796816
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gameplay
+        ObjectType: 12
+      - ElementName: Play_Target_throw
+        ObjectType: 3
+      Path: Default Work Unit/Gameplay/Play_Target_throw
+      maxAttenuation: 0
+      maxDuration: 0.689726
+      minDuration: 0.217103
+  - PhysicalPath: Events/Music.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Music
+      ObjectType: 12
+    ParentPath: Default Work Unit/Music
+    guid: 5b0553f3e01b014e9c83737302165535
+    GuidInternal: 
+    m_lastTime: -8585353715836210124
+    List:
+    - name: GameOver
+      guid: 7ecbe6bb835f1648bc87cfadd4a9a5de
+      id: 4158285989
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: GameOver
+        ObjectType: 3
+      Path: Default Work Unit/Music/GameOver
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Music
+      guid: e2c5da9170229b418610862d7ec20dd0
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Play_Music
+        ObjectType: 3
+      Path: Default Work Unit/Music/Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events/UI.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: UI
+      ObjectType: 12
+    ParentPath: Default Work Unit/UI
+    guid: 5b172b064ff1cc4d83dbd676ab1fef6b
+    GuidInternal: 
+    m_lastTime: -8585353715836087079
+    List:
+    - name: UI_Button_Audio
+      guid: bfd65e5f0437cc4a95e10304bad5025d
+      id: 2032300677
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: UI_Button_Audio
+        ObjectType: 3
+      Path: Default Work Unit/UI/UI_Button_Audio
+      maxAttenuation: 0
+      maxDuration: 0.209167
+      minDuration: 0.209167
+    - name: UI_Button_Easy
+      guid: 8235f0124b4e374697a0b806a36e1fdc
+      id: 2556651335
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: UI_Button_Easy
+        ObjectType: 3
+      Path: Default Work Unit/UI/UI_Button_Easy
+      maxAttenuation: 0
+      maxDuration: 0.151361
+      minDuration: 0.151361
+    - name: UI_Button_Hard
+      guid: c2dd4088e27ead46b937b0b2ca8c7ddc
+      id: 2826930930
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: UI_Button_Hard
+        ObjectType: 3
+      Path: Default Work Unit/UI/UI_Button_Hard
+      maxAttenuation: 0
+      maxDuration: 0.101021
+      minDuration: 0.101021
+    - name: UI_Button_Help
+      guid: 005fa2d9db83184fb03af6dd1ef06c0c
+      id: 2726853616
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: UI_Button_Help
+        ObjectType: 3
+      Path: Default Work Unit/UI/UI_Button_Help
+      maxAttenuation: 0
+      maxDuration: 0.07568
+      minDuration: 0.07568
+    - name: UI_Button_Main_Menu
+      guid: 9072c6985f0fe544bc617723a880fe7e
+      id: 4079845416
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: UI_Button_Main_Menu
+        ObjectType: 3
+      Path: Default Work Unit/UI/UI_Button_Main_Menu
+      maxAttenuation: 0
+      maxDuration: 0.060067
+      minDuration: 0.060067
+    - name: UI_Button_Medium
+      guid: 0096d9ebfa070549938c08f076311b94
+      id: 2414566500
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: UI_Button_Medium
+        ObjectType: 3
+      Path: Default Work Unit/UI/UI_Button_Medium
+      maxAttenuation: 0
+      maxDuration: 0.120135
+      minDuration: 0.120135
+    - name: UI_Button_Quit
+      guid: b0e19b305a44d442933dbdee4ee36e61
+      id: 4235982132
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: UI_Button_Quit
+        ObjectType: 3
+      Path: Default Work Unit/UI/UI_Button_Quit
+      maxAttenuation: 0
+      maxDuration: 0.050511
+      minDuration: 0.050511
+    - name: UI_Button_Restart
+      guid: 77c0537fa4235747a3fd72462dee4763
+      id: 3527493374
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: UI_Button_Restart
+        ObjectType: 3
+      Path: Default Work Unit/UI/UI_Button_Restart
+      maxAttenuation: 0
+      maxDuration: 0.302721
+      minDuration: 0.302721
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 83a9df8cde1e1a4091ff647803cc6c03
+    GuidInternal: 
+    m_lastTime: -8585353715835954902
+    List:
+    - name: Master_Volume
+      guid: 9053ffe3a4925d43aff374b67a3de2d6
+      id: 4179668880
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master_Volume
+        ObjectType: 13
+      Path: Default Work Unit/Master_Volume
+    - name: Music_Volume
+      guid: 877787f40b10304689d077898cd8ec5e
+      id: 1006694123
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music_Volume
+        ObjectType: 13
+      Path: Default Work Unit/Music_Volume
+    - name: SFX_Volume
+      guid: 493c5ecb97975a4cbfea2bdb67e13211
+      id: 1564184899
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX_Volume
+        ObjectType: 13
+      Path: Default Work Unit/SFX_Volume
+  - PhysicalPath: Game Parameters/Music.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Music
+      ObjectType: 12
+    ParentPath: Default Work Unit/Music
+    guid: ec7f6c7e5c1ab24b87125fc2d22f1a3e
+    GuidInternal: 
+    m_lastTime: -8585353715835915349
+    List:
+    - name: Music_Playback
+      guid: 0edbfad98373714cb676967599a99b40
+      id: 3710016230
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Music_Playback
+        ObjectType: 13
+      Path: Default Work Unit/Music/Music_Playback
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 6a3e9406ff88ef4aa641a840674bfbd9
+    GuidInternal: 
+    m_lastTime: -8585353715835992519
+    List:
+    - name: Music
+      guid: 5dbd8d92590e1844a093c4f3c56bb162
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 9
+      Path: Default Work Unit/Music
+      values:
+      - name: GameOver
+        guid: 5ddb5e3b5be72249beeefe67b898e34f
+        id: 4158285989
+        PathAndIcons:
+        - ElementName: GameOver
+          ObjectType: 8
+      - name: Gameplay_Easy
+        guid: bcbda8284cf846488b68db368cbaf2fd
+        id: 3667619686
+        PathAndIcons:
+        - ElementName: Gameplay_Easy
+          ObjectType: 8
+      - name: Gameplay_Hard
+        guid: 725ecc325ce9214faca7bff4c6087967
+        id: 2586383859
+        PathAndIcons:
+        - ElementName: Gameplay_Hard
+          ObjectType: 8
+      - name: GamepLay_Medium
+        guid: a82f7e62bfaf594ea07373e716aac8fa
+        id: 3416629257
+        PathAndIcons:
+        - ElementName: GamepLay_Medium
+          ObjectType: 8
+      - name: None
+        guid: 172da2ab44dc7145ba06032118ef3168
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: UI
+        guid: 4e731d5ee9ca5248b215d6cac94c4a25
+        id: 1551306167
+        PathAndIcons:
+        - ElementName: UI
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  - PhysicalPath: States/Game Music.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Game Music
+      ObjectType: 12
+    ParentPath: Default Work Unit/Game Music
+    guid: fd68cfcc7cf3294b8869a203879a1371
+    GuidInternal: 
+    m_lastTime: -8585353715836119407
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 645920dadd3f6f4ebabc74697acd15a6
+    GuidInternal: 
+    m_lastTime: -8585353715836166341
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 281e0fcecebff740bc01d79c526d22f2
+    GuidInternal: 
+    m_lastTime: -8585353715835376318
+    List: []
+  ExpandedItems:
+  - /Prototype 5_WwiseProject
+  - /Prototype 5_WwiseProject/Events
+  - /Prototype 5_WwiseProject/Events/Default Work Unit
+  - /Prototype 5_WwiseProject/Events/Default Work Unit/Gameplay
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
