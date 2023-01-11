@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}" SchemaVersion="103" RootDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" ParentDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}">
+<WwiseDocument Type="WorkUnit" ID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}" SchemaVersion="110" RootDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" ParentDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}">
 	<AudioObjects>
 		<WorkUnit Name="UI" ID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}" OwnerID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" PersistMode="Nested">
 			<ChildrenList>
@@ -9,34 +9,6 @@
 							<ValueList>
 								<Value>-30</Value>
 							</ValueList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<RTPCList>
-								<RTPC Name="" ID="{7B7F065C-CB3D-43FF-A20B-27D04C8B530F}" ShortID="272020746">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{239DF8AC-FADF-4BAF-A6AF-29727C321BDD}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-200</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>0</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -114,7 +86,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_blip_beep_34" ID="{32B78DF6-6F94-4476-AB56-5FE9BD43E187}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -148,13 +119,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_button_simple_click_07" ID="{FF272482-DE1F-4796-B633-128FE7917AA9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="UI_Button_Hard" ID="{93A12231-C025-491D-B729-A27ACA63B16F}" ShortID="976623034">
 							<PropertyList>
@@ -240,7 +209,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_blip_beep_34" ID="{FEDB0DF6-E17E-4F9D-8D71-8F47828383FD}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -274,13 +242,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_button_simple_click_07" ID="{51EE521D-8204-48B0-9ABE-D241177DB905}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="UI_Button_Medium" ID="{77D87C07-2BC0-40E4-8B7F-5E7109B98165}" ShortID="903871866">
 							<PropertyList>
@@ -357,7 +323,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_blip_beep_34" ID="{D5ADF5FD-66B4-4439-A160-A0C12886FC31}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -391,13 +356,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_button_simple_click_07" ID="{8C16BC16-4416-48B4-AB2B-5ACE52E1085A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="UI_Button_Help" ID="{8CD46D80-BFA5-48D8-84C1-9BF6E0DFE5E5}" ShortID="421393232">
 							<PropertyList>
@@ -459,7 +422,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_blip_beep_34" ID="{802E1231-031F-4D88-A601-99D93952C2E4}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -493,13 +455,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_button_simple_click_07" ID="{FC57D4BA-8205-4A78-A1EC-0FD747486080}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="UI_Button_Main_Menu" ID="{096CB7A5-D696-4F86-B638-BB733D4CBD14}" ShortID="758845956">
 							<PropertyList>
@@ -561,7 +521,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_blip_beep_34" ID="{8A812BED-9178-4D77-BAD6-E29EB70B2544}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -595,13 +554,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_button_simple_click_07" ID="{79E22BEA-EDA4-40EE-BF93-95E78DDE5F51}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="UI_Button_Audio" ID="{E0F14D10-8DDE-4764-A50F-5EBF6F5FD859}" ShortID="1020472263">
 							<PropertyList>
@@ -658,7 +615,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_blip_beep_34" ID="{21C89C22-51BF-4632-905F-DFD326EEDA29}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -692,13 +648,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_button_simple_click_07" ID="{5C5D2611-0CDE-43B8-A282-7EC41C2B7F69}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="UI_Button_Restart" ID="{7579A008-7E7E-4124-AABD-EDFF06823239}" ShortID="946707459">
 							<PropertyList>
@@ -755,7 +709,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_blip_beep_34" ID="{AB3CF13C-8650-4831-8E3D-39513E8EFA0A}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -789,13 +742,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_button_simple_click_07" ID="{2F96BC21-83FB-4C8D-A19C-19C743B744F3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="UI_Button_Quit" ID="{7E57E309-F72F-4BDD-B87F-9692AAC63C31}" ShortID="163894712">
 							<PropertyList>
@@ -852,7 +803,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_blip_beep_34" ID="{08F1CEC6-3F01-4791-970F-9E57E8EB1520}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -886,16 +836,52 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="ui_button_simple_click_07" ID="{3E297AAE-B572-4E23-8C8F-19CFE4416251}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 					</ChildrenList>
-					<ObjectLists/>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{7B7F065C-CB3D-43FF-A20B-27D04C8B530F}" ShortID="272020746">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{239DF8AC-FADF-4BAF-A6AF-29727C321BDD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

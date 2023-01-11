@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ef14929ea1974d1e99f307af7caf20b, type: 3}
+  m_Script: {fileID: 11500000, guid: eb21d725d921943b8b0e173627f2d5cf, type: 3}
   m_Name: AkWwiseInitializationSettings
   m_EditorClassIdentifier: 
   PlatformSettingsNameList:
@@ -25,7 +25,7 @@ MonoBehaviour:
     m_EngineLogging: 1
     m_MaximumNumberOfPositioningPaths: 255
     m_CommandQueueSize: 262144
-    m_SamplesPerFrame: 1024
+    m_SamplesPerFrame: 512
     m_MainOutputSettings:
       m_AudioDeviceShareset: 
       m_DeviceID: 0
@@ -39,14 +39,17 @@ MonoBehaviour:
     m_NumberOfRefillsInVoice: 4
     m_SpatialAudioSettings:
       m_MaxSoundPropagationDepth: 8
-      m_DiffractionFlags: -1
-      m_MovementThreshold: 1
+      m_MovementThreshold: 0.1
       m_NumberOfPrimaryRays: 100
       m_MaxReflectionOrder: 1
+      m_MaxDiffractionOrder: 4
+      m_DiffractionOnReflectionsOrder: 2
       m_MaxPathLength: 10000
+      m_CPULimitPercentage: 0
       m_EnableDiffractionOnReflections: 1
-      m_EnableDirectPathDiffraction: 1
-      m_EnableTransmission: 1
+      m_EnableGeometricDiffractionAndTransmission: 1
+      m_CalcEmitterVirtualPosition: 1
+      m_LoadBalancingSpread: 1
   AdvancedSettings:
     m_IOMemorySize: 2097152
     m_TargetAutoStreamBufferLengthMs: 380
@@ -54,16 +57,15 @@ MonoBehaviour:
     m_MaximumPinnedBytesInCache: 4294967295
     m_EnableGameSyncPreparation: 0
     m_ContinuousPlaybackLookAhead: 1
-    m_MonitorQueuePoolSize: 65536
+    m_MonitorQueuePoolSize: 1048576
     m_MaximumHardwareTimeoutMs: 1000
     m_DebugOutOfRangeCheckEnabled: 0
     m_DebugOutOfRangeLimit: 16
-    m_SpatialAudioSettings:
-      m_DiffractionShadowAttenuationFactor: 1
-      m_DiffractionShadowDegrees: 30
     m_RenderDuringFocusLoss: 0
     m_SoundBankPersistentDataPath: 
     m_UseAsyncOpen: 0
+    m_MemoryAllocationSizeLimit: 0
+    m_MemoryDebugLevel: 0
   CommsSettings:
     m_PoolSize: 262144
     m_DiscoveryBroadcastPort: 24024

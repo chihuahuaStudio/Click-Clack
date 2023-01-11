@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{77F93D4B-590C-4DD2-9CC6-FEC8538393CA}" SchemaVersion="103" RootDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" ParentDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}">
+<WwiseDocument Type="WorkUnit" ID="{77F93D4B-590C-4DD2-9CC6-FEC8538393CA}" SchemaVersion="110" RootDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" ParentDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}">
 	<AudioObjects>
 		<WorkUnit Name="Gameplay" ID="{77F93D4B-590C-4DD2-9CC6-FEC8538393CA}" OwnerID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" PersistMode="Nested">
 			<ChildrenList>
@@ -39,32 +39,6 @@
 							<ValueList>
 								<Value>-3</Value>
 							</ValueList>
-							<RTPCList>
-								<RTPC Name="" ID="{2A29A9C3-3E53-4A02-A12C-035589C60711}" ShortID="345080661">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{7ED17126-A14E-40C7-8D14-70E9DB67E852}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-200</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>0</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -117,7 +91,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_deep_02" ID="{66B20BBA-7B16-4501-953B-F8134345F51F}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -162,13 +135,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_short_01" ID="{68190D7F-A43B-47FB-805C-2275BB0B1C75}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="Bomb 2" ID="{482B77BD-D624-4297-8C9D-0C2796B63D92}" ShortID="393880236">
 							<PropertyList>
@@ -218,7 +189,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_deep_03" ID="{3EED0035-18A3-4E30-8A07-682076F3CF2F}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -252,13 +222,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_short_02" ID="{39679E23-3C59-44B6-9BED-765CF2E157C7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="Bomb 3" ID="{343844E4-4049-4288-9A24-A31525E6BCCA}" ShortID="629232644">
 							<PropertyList>
@@ -318,7 +286,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_deep_04" ID="{1EFE5308-B384-42ED-992A-A0767D962C38}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -352,16 +319,52 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_short_03" ID="{7E242F93-4109-4EBA-B161-25166D332942}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 					</ChildrenList>
-					<ObjectLists/>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{2A29A9C3-3E53-4A02-A12C-035589C60711}" ShortID="345080661">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{7ED17126-A14E-40C7-8D14-70E9DB67E852}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Good Targets" ID="{BAE46467-D278-4125-9A37-DD7201DB2600}" ShortID="433957758">
 					<PropertyList>
@@ -399,32 +402,6 @@
 							<ValueList>
 								<Value>-5</Value>
 							</ValueList>
-							<RTPCList>
-								<RTPC Name="" ID="{A73C6E15-D6FF-4A41-8082-2BB77F56520B}" ShortID="141070419">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{204350C3-FAD1-4DC0-922D-BB3A0C5899C1}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-200</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>0</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -477,7 +454,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_collect_pickup_item_01" ID="{0B0EF9C4-F2CC-434E-B6A5-81D80866AF65}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -510,7 +486,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_eat_collect_01" ID="{92BD35D0-BECF-4E59-BDD0-80E471A62036}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -544,13 +519,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_short_01" ID="{0AB3E6B2-56F0-434C-82D1-1F26DC64CF47}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="Good Target Blender 2" ID="{63EFBCE0-C848-41E2-8377-A3838A040BB5}" ShortID="533250839">
 							<PropertyList>
@@ -600,7 +573,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_collect_pickup_item_02" ID="{4DD3B5BE-3592-4C8C-933C-5F890E8701E5}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -633,7 +605,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_eat_collect_02" ID="{EC7DFC0E-6C0C-4F23-815F-6064A597E07C}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -667,13 +638,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_short_02" ID="{66FEA30F-3F4E-427D-A970-9359FD651AC8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="Good Target Blender 3" ID="{4B927511-F13C-48AB-A0AA-4F38EF74299D}" ShortID="688751820">
 							<PropertyList>
@@ -723,7 +692,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_collect_pickup_item_03" ID="{03345D55-8A57-4769-9768-2A977F8A92C0}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -756,7 +724,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_eat_collect_03" ID="{12917609-FE92-4A37-9CAD-68AF823FB36F}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -790,13 +757,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_short_03" ID="{E6D0A710-E323-43BF-BF50-FAFFDE8096FB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 						<BlendContainer Name="Good Target Blender 4" ID="{0B19161A-47C3-48D4-A62D-2064EBEDF93C}" ShortID="838886346">
 							<PropertyList>
@@ -846,7 +811,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_collect_pickup_item_04" ID="{0AC52FDC-3EF0-4A9D-B824-DDDD7BDC8AEA}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -879,7 +843,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_eat_collect_05" ID="{44215FD6-7C52-4B2F-B338-B1CE601EC0CA}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -913,16 +876,52 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="retro_explosion_short_03" ID="{D527DE3B-8BF4-4537-9ACF-F47ED0719113}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</BlendContainer>
 					</ChildrenList>
-					<ObjectLists/>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{A73C6E15-D6FF-4A41-8082-2BB77F56520B}" ShortID="141070419">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{204350C3-FAD1-4DC0-922D-BB3A0C5899C1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Target_Throw" ID="{2E080C4F-4656-4D17-8F37-ED7476D37BCF}" ShortID="490342994">
 					<PropertyList>
@@ -957,32 +956,6 @@
 							<ValueList>
 								<Value>-6</Value>
 							</ValueList>
-							<RTPCList>
-								<RTPC Name="" ID="{F85E7678-074F-4FDB-8DDF-BE9BB39AB9A9}" ShortID="356688903">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{93AF09B0-28D6-4A48-A85F-DEBAC79D46FF}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-200</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>0</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -1015,7 +988,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="retro_jump_bounce_09" ID="{332E246D-C3C2-4351-A14F-6D87365B9C1C}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1038,7 +1010,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="retro_jump_bounce_12" ID="{FDABFC15-E4E0-4A57-ADCA-1359B0362F85}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1061,7 +1032,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="retro_jump_bounce_18" ID="{19E6CC8F-A2C9-4BCA-ADE6-56E12ECCFB41}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -1084,13 +1054,50 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="retro_jump_bounce_04" ID="{2774618C-942C-4F2A-A34F-2C54BA6066D8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<ObjectLists/>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{F85E7678-074F-4FDB-8DDF-BE9BB39AB9A9}" ShortID="356688903">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{93AF09B0-28D6-4A48-A85F-DEBAC79D46FF}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

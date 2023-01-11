@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{062B175B-F14F-4DCC-83DB-D676AB1FEF6B}" SchemaVersion="103" RootDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" ParentDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}">
+<WwiseDocument Type="WorkUnit" ID="{062B175B-F14F-4DCC-83DB-D676AB1FEF6B}" SchemaVersion="110" RootDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" ParentDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}">
 	<Events>
 		<WorkUnit Name="UI" ID="{062B175B-F14F-4DCC-83DB-D676AB1FEF6B}" OwnerID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" PersistMode="Nested">
 			<ChildrenList>

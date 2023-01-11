@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Unity Learn and certifications/Junior Programmer/Create with code/Prototype 5/Prototype 5_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Unity Learn and certifications/Junior Programmer/Create with code/Prototype 5/Prototype 5_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Unity Learn and certifications/Junior Programmer/Create with code/Prototype 5/Prototype 5_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Git/Click-Clack/Prototype 5_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Git/Click-Clack/Prototype 5_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Git/Click-Clack/Prototype 5_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Unity Learn and certifications/Junior Programmer/Create with code/Prototype 5/Prototype 5_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Git/Click-Clack/Prototype 5_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="89505537" Language="SFX" Hash="1998425868">
+		<SoundBank Id="89505537" Language="SFX" Hash="3190694067">
 			<ObjectPath>\SoundBanks\Default Work Unit\Gameplay</ObjectPath>
 			<ShortName>Gameplay</ShortName>
 			<Path>Gameplay.bnk</Path>
@@ -47,7 +47,7 @@
 						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="1273958970" Name="Play_GoodTarget_Sound" ObjectPath="\Events\Default Work Unit\Gameplay\Play_GoodTarget_Sound" DurationType="OneShot" DurationMin="0.142822" DurationMax="0.502540">
+				<Event Id="1273958970" Name="Play_GoodTarget_Sound" ObjectPath="\Events\Default Work Unit\Gameplay\Play_GoodTarget_Sound" DurationType="OneShot" DurationMin="0.142822" DurationMax="0.50254">
 					<IncludedMemoryFiles>
 						<File Id="18261518" Language="SFX">
 							<ShortName>retro_eat_collect_01.wav</ShortName>
@@ -126,7 +126,7 @@
 				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="227099940">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2842517822">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -137,7 +137,7 @@
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1551306167" Language="SFX" Hash="3890274767">
+		<SoundBank Id="1551306167" Language="SFX" Hash="769819707">
 			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
@@ -187,7 +187,7 @@
 						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2726853616" Name="UI_Button_Help" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Help" DurationType="OneShot" DurationMin="0.075680" DurationMax="0.075680">
+				<Event Id="2726853616" Name="UI_Button_Help" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Help" DurationType="OneShot" DurationMin="0.07568" DurationMax="0.07568">
 					<IncludedMemoryFiles>
 						<File Id="428874232" Language="SFX">
 							<ShortName>retro_blip_beep_34.wav</ShortName>
@@ -267,12 +267,12 @@
 				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="2493936994">
+		<SoundBank Id="3991942870" Language="SFX" Hash="221724217">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\Music\GameOver" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\Music\GameOver" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Music\Play_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="61520305" Language="SFX">
@@ -369,17 +369,17 @@
 				<GameParameter Id="3710016230" Name="Music_Playback" ObjectPath="\Game Parameters\Default Work Unit\Music\Music_Playback"/>
 			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\Music\UI">
+				<StateGroup Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\Music\UI" GUID="{5E1D734E-CAE9-4852-B215-D6CAC94C4A25}">
 					<States/>
 				</StateGroup>
-				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music">
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{928DBD5D-0E59-4418-A093-C4F3C56BB162}">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None"/>
-						<State Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\Music\UI"/>
-						<State Id="3667619686" Name="Gameplay_Easy" ObjectPath="\States\Default Work Unit\Music\Gameplay_Easy"/>
-						<State Id="3416629257" Name="GamepLay_Medium" ObjectPath="\States\Default Work Unit\Music\GamepLay_Medium"/>
-						<State Id="2586383859" Name="Gameplay_Hard" ObjectPath="\States\Default Work Unit\Music\Gameplay_Hard"/>
-						<State Id="4158285989" Name="GameOver" ObjectPath="\States\Default Work Unit\Music\GameOver"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{ABA22D17-DC44-4571-BA06-032118EF3168}"/>
+						<State Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\Music\UI" GUID="{5E1D734E-CAE9-4852-B215-D6CAC94C4A25}"/>
+						<State Id="3667619686" Name="Gameplay_Easy" ObjectPath="\States\Default Work Unit\Music\Gameplay_Easy" GUID="{28A8BDBC-F84C-4846-8B68-DB368CBAF2FD}"/>
+						<State Id="3416629257" Name="GamepLay_Medium" ObjectPath="\States\Default Work Unit\Music\GamepLay_Medium" GUID="{627E2FA8-AFBF-4E59-A073-73E716AAC8FA}"/>
+						<State Id="2586383859" Name="Gameplay_Hard" ObjectPath="\States\Default Work Unit\Music\Gameplay_Hard" GUID="{32CC5E72-E95C-4F21-ACA7-BFF4C6087967}"/>
+						<State Id="4158285989" Name="GameOver" ObjectPath="\States\Default Work Unit\Music\GameOver" GUID="{3B5EDB5D-E75B-4922-BEEE-FE67B898E34F}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

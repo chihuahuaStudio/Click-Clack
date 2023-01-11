@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}" SchemaVersion="103" RootDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" ParentDocumentID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}">
+	<AudioObjects>
+		<WorkUnit Name="UI" ID="{2E51587F-3A2D-4A90-8BE6-078B9C1958CE}" OwnerID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="UI_Buttons" ID="{2C9A01DA-3DA9-4597-BC3E-F5023AECB521}" ShortID="820183074">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{7B7F065C-CB3D-43FF-A20B-27D04C8B530F}" ShortID="272020746">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}" WorkUnitID="{8CDFA983-1EDE-401A-91FF-647803CC6C03}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{239DF8AC-FADF-4BAF-A6AF-29727C321BDD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFXs" ID="{6457FBB2-503A-45CD-BC52-BAC2D7C03406}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{93126BFC-0F68-485C-B91C-21FE72E79F5F}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="UI_Button_Easy" ID="{28CFF059-929F-4EB2-A630-F8A1E5CB852E}" ShortID="202083575">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
+										<Effect Name="Room_Small_(Custom)" ID="{5DF87979-38CA-4ECE-9611-CB54BF7B372B}" ShortID="417509025" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="0.7"/>
+												<Property Name="Density" Type="Real32" Value="44"/>
+												<Property Name="Diffusion" Type="Real32" Value="46"/>
+												<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+												<Property Name="ERLevel" Type="Real32" Value="-24"/>
+												<Property Name="ERPattern" Type="int32" Value="22"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+												<Property Name="HFDamping" Type="Real32" Value="2.7"/>
+												<Property Name="PreDelay" Type="Real32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
+												<Property Name="RoomShape" Type="Real32" Value="55"/>
+												<Property Name="RoomSize" Type="Real32" Value="20"/>
+												<Property Name="StereoWidth" Type="Real32" Value="90"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="retro_blip_beep_34" ID="{D807BE83-E375-43AC-93AF-E9B6F18ADD2A}" ShortID="767118990">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>41</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="retro_blip_beep_34" ID="{32B78DF6-6F94-4476-AB56-5FE9BD43E187}">
+											<Language>SFX</Language>
+											<AudioFile>retro_blip_beep_34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428874232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="retro_blip_beep_34" ID="{32B78DF6-6F94-4476-AB56-5FE9BD43E187}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_button_simple_click_07" ID="{A690AEEA-905C-4AF2-A3B8-DEC00E719B3E}" ShortID="129922300">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_button_simple_click_07" ID="{FF272482-DE1F-4796-B633-128FE7917AA9}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0459183701657459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ui_button_simple_click_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587733577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_button_simple_click_07" ID="{FF272482-DE1F-4796-B633-128FE7917AA9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<BlendContainer Name="UI_Button_Hard" ID="{93A12231-C025-491D-B729-A27ACA63B16F}" ShortID="976623034">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>700</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2B2463AC-830A-4C7D-9A1E-F4578C91A675}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
+										<Effect Name="Room_Small_(Custom)" ID="{82045E3A-BEC5-4A68-B66F-6233F0372F6A}" ShortID="637647326" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="0.7"/>
+												<Property Name="Density" Type="Real32" Value="44"/>
+												<Property Name="Diffusion" Type="Real32" Value="46"/>
+												<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+												<Property Name="ERLevel" Type="Real32" Value="-24"/>
+												<Property Name="ERPattern" Type="int32" Value="22"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+												<Property Name="HFDamping" Type="Real32" Value="2.7"/>
+												<Property Name="PreDelay" Type="Real32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
+												<Property Name="RoomShape" Type="Real32" Value="55"/>
+												<Property Name="RoomSize" Type="Real32" Value="20"/>
+												<Property Name="StereoWidth" Type="Real32" Value="90"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="retro_blip_beep_34" ID="{B7DC8719-6D25-4FD4-84EF-668C94227158}" ShortID="319132937">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="retro_blip_beep_34" ID="{FEDB0DF6-E17E-4F9D-8D71-8F47828383FD}">
+											<Language>SFX</Language>
+											<AudioFile>retro_blip_beep_34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428874232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="retro_blip_beep_34" ID="{FEDB0DF6-E17E-4F9D-8D71-8F47828383FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_button_simple_click_07" ID="{C92705BC-6E25-407B-AFFE-82AA153581CB}" ShortID="419309965">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_button_simple_click_07" ID="{51EE521D-8204-48B0-9ABE-D241177DB905}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0459183701657459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ui_button_simple_click_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587733577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_button_simple_click_07" ID="{51EE521D-8204-48B0-9ABE-D241177DB905}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<BlendContainer Name="UI_Button_Medium" ID="{77D87C07-2BC0-40E4-8B7F-5E7109B98165}" ShortID="903871866">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>400</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
+										<Effect Name="Room_Small_(Custom)" ID="{5440C03A-FA5C-427A-88D4-7D2FCF044CD6}" ShortID="99390095" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="0.7"/>
+												<Property Name="Density" Type="Real32" Value="44"/>
+												<Property Name="Diffusion" Type="Real32" Value="46"/>
+												<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+												<Property Name="ERLevel" Type="Real32" Value="-24"/>
+												<Property Name="ERPattern" Type="int32" Value="22"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+												<Property Name="HFDamping" Type="Real32" Value="2.7"/>
+												<Property Name="PreDelay" Type="Real32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
+												<Property Name="RoomShape" Type="Real32" Value="55"/>
+												<Property Name="RoomSize" Type="Real32" Value="20"/>
+												<Property Name="StereoWidth" Type="Real32" Value="90"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="retro_blip_beep_34" ID="{8B0A3E39-F4DF-41AE-92FC-2C886FE86074}" ShortID="1036997114">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="retro_blip_beep_34" ID="{D5ADF5FD-66B4-4439-A160-A0C12886FC31}">
+											<Language>SFX</Language>
+											<AudioFile>retro_blip_beep_34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428874232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="retro_blip_beep_34" ID="{D5ADF5FD-66B4-4439-A160-A0C12886FC31}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_button_simple_click_07" ID="{CBA11F2F-C8B6-4613-84C6-FE1D4AB55C49}" ShortID="664538496">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_button_simple_click_07" ID="{8C16BC16-4416-48B4-AB2B-5ACE52E1085A}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0459183701657459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ui_button_simple_click_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587733577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_button_simple_click_07" ID="{8C16BC16-4416-48B4-AB2B-5ACE52E1085A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<BlendContainer Name="UI_Button_Help" ID="{8CD46D80-BFA5-48D8-84C1-9BF6E0DFE5E5}" ShortID="421393232">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>1200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFXs" ID="{6457FBB2-503A-45CD-BC52-BAC2D7C03406}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{93126BFC-0F68-485C-B91C-21FE72E79F5F}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="retro_blip_beep_34" ID="{615B29B6-7F88-4E8E-BF5B-1A9FD1AB7A7A}" ShortID="866401752">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="retro_blip_beep_34" ID="{802E1231-031F-4D88-A601-99D93952C2E4}">
+											<Language>SFX</Language>
+											<AudioFile>retro_blip_beep_34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428874232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="retro_blip_beep_34" ID="{802E1231-031F-4D88-A601-99D93952C2E4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_button_simple_click_07" ID="{32281F98-1A46-49A9-B5AA-740F4C6B1156}" ShortID="129787248">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_button_simple_click_07" ID="{FC57D4BA-8205-4A78-A1EC-0FD747486080}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0459183701657459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ui_button_simple_click_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587733577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_button_simple_click_07" ID="{FC57D4BA-8205-4A78-A1EC-0FD747486080}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<BlendContainer Name="UI_Button_Main_Menu" ID="{096CB7A5-D696-4F86-B638-BB733D4CBD14}" ShortID="758845956">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>1600</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFXs" ID="{6457FBB2-503A-45CD-BC52-BAC2D7C03406}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{93126BFC-0F68-485C-B91C-21FE72E79F5F}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="retro_blip_beep_34" ID="{00C4D846-7F5C-4D00-93EE-ABE270C8E136}" ShortID="160110459">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="retro_blip_beep_34" ID="{8A812BED-9178-4D77-BAD6-E29EB70B2544}">
+											<Language>SFX</Language>
+											<AudioFile>retro_blip_beep_34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428874232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="retro_blip_beep_34" ID="{8A812BED-9178-4D77-BAD6-E29EB70B2544}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_button_simple_click_07" ID="{3A89AFEF-68D6-42E7-990B-AB6D08855ADA}" ShortID="26780706">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_button_simple_click_07" ID="{79E22BEA-EDA4-40EE-BF93-95E78DDE5F51}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0459183701657459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ui_button_simple_click_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587733577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_button_simple_click_07" ID="{79E22BEA-EDA4-40EE-BF93-95E78DDE5F51}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<BlendContainer Name="UI_Button_Audio" ID="{E0F14D10-8DDE-4764-A50F-5EBF6F5FD859}" ShortID="1020472263">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-560</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFXs" ID="{6457FBB2-503A-45CD-BC52-BAC2D7C03406}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{93126BFC-0F68-485C-B91C-21FE72E79F5F}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="retro_blip_beep_34" ID="{471DB1AB-3973-4222-A5BC-5F1A2F4095BA}" ShortID="958330439">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>41</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="retro_blip_beep_34" ID="{21C89C22-51BF-4632-905F-DFD326EEDA29}">
+											<Language>SFX</Language>
+											<AudioFile>retro_blip_beep_34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428874232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="retro_blip_beep_34" ID="{21C89C22-51BF-4632-905F-DFD326EEDA29}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_button_simple_click_07" ID="{317E31B5-93C4-41AB-9A97-AF3000F67E22}" ShortID="382391677">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_button_simple_click_07" ID="{5C5D2611-0CDE-43B8-A282-7EC41C2B7F69}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0459183701657459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ui_button_simple_click_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587733577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_button_simple_click_07" ID="{5C5D2611-0CDE-43B8-A282-7EC41C2B7F69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<BlendContainer Name="UI_Button_Restart" ID="{7579A008-7E7E-4124-AABD-EDFF06823239}" ShortID="946707459">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFXs" ID="{6457FBB2-503A-45CD-BC52-BAC2D7C03406}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{93126BFC-0F68-485C-B91C-21FE72E79F5F}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="retro_blip_beep_34" ID="{1AC6FCB6-27E3-4522-A92A-4A3271204874}" ShortID="506641310">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>41</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="retro_blip_beep_34" ID="{AB3CF13C-8650-4831-8E3D-39513E8EFA0A}">
+											<Language>SFX</Language>
+											<AudioFile>retro_blip_beep_34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428874232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="retro_blip_beep_34" ID="{AB3CF13C-8650-4831-8E3D-39513E8EFA0A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_button_simple_click_07" ID="{A51FA230-2658-4314-8871-812CD4B0D190}" ShortID="761078627">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_button_simple_click_07" ID="{2F96BC21-83FB-4C8D-A19C-19C743B744F3}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0459183701657459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ui_button_simple_click_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587733577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_button_simple_click_07" ID="{2F96BC21-83FB-4C8D-A19C-19C743B744F3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+						<BlendContainer Name="UI_Button_Quit" ID="{7E57E309-F72F-4BDD-B87F-9692AAC63C31}" ShortID="163894712">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>1900</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-30</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFXs" ID="{6457FBB2-503A-45CD-BC52-BAC2D7C03406}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{93126BFC-0F68-485C-B91C-21FE72E79F5F}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="SFX_reverb" ID="{1BC086CB-94C2-402D-8E8C-F66360D8A011}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="retro_blip_beep_34" ID="{04CD848D-8F41-4134-B8D7-DC8E53AA8F7B}" ShortID="526797597">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>41</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="retro_blip_beep_34" ID="{08F1CEC6-3F01-4791-970F-9E57E8EB1520}">
+											<Language>SFX</Language>
+											<AudioFile>retro_blip_beep_34.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428874232"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="retro_blip_beep_34" ID="{08F1CEC6-3F01-4791-970F-9E57E8EB1520}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ui_button_simple_click_07" ID="{5F9579BD-CEC4-4D37-9902-1445DDC03216}" ShortID="270403314">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4A8C743F-86FA-47FF-B406-02D9F4AE23D3}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{92206783-1E20-4368-B335-1B6578AA94EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ui_button_simple_click_07" ID="{3E297AAE-B572-4E23-8C8F-19CFE4416251}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.0459183701657459"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ui_button_simple_click_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587733577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ui_button_simple_click_07" ID="{3E297AAE-B572-4E23-8C8F-19CFE4416251}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

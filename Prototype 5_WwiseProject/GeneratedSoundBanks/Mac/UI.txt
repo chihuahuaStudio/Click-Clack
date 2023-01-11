@@ -12,6 +12,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1564184899	SFX_Volume			\Default Work Unit\SFX_Volume	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	428874232	retro_blip_beep_34	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\retro_blip_beep_34_EB0C5B6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Buttons\UI_Button_Medium\retro_blip_beep_34		2157
-	587733577	ui_button_simple_click_07	Y:\Unity\Unity Learn and certifications\Junior Programmer\Create with code\Prototype 5\Prototype 5_WwiseProject\.cache\Mac\SFX\ui_button_simple_click_07_7FB50428.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Buttons\UI_Button_Medium\ui_button_simple_click_07		2145
+	428874232	retro_blip_beep_34	Y:\Unity\Git\Click-Clack\Prototype 5_WwiseProject\.cache\Mac\SFX\retro_blip_beep_34_EB0C5B6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Buttons\UI_Button_Hard\retro_blip_beep_34		2157
+	587733577	ui_button_simple_click_07	Y:\Unity\Git\Click-Clack\Prototype 5_WwiseProject\.cache\Mac\SFX\ui_button_simple_click_07_7FB50428.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Buttons\UI_Button_Hard\ui_button_simple_click_07		2145
 

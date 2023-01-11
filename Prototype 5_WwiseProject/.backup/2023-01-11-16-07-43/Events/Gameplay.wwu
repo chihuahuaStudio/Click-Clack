@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" SchemaVersion="103" RootDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" ParentDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}">
+	<Events>
+		<WorkUnit Name="Gameplay" ID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" OwnerID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Bomb_Target" ID="{DF235277-46C7-44AD-BC32-8118D660501D}">
+					<ChildrenList>
+						<Action Name="" ID="{C80253F0-06DE-46B1-82DB-B57FAD8388DD}" ShortID="179964387">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bombs" ID="{93BA9531-CA0E-4953-A829-42C058B796AE}" WorkUnitID="{77F93D4B-590C-4DD2-9CC6-FEC8538393CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GoodTarget_Sound" ID="{C5D772A8-B5A1-4602-BF49-E76E73F5065D}">
+					<ChildrenList>
+						<Action Name="" ID="{DED2B64D-73D8-4909-A9CD-2E84B6D2838F}" ShortID="525128874">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Good Targets" ID="{BAE46467-D278-4125-9A37-DD7201DB2600}" WorkUnitID="{77F93D4B-590C-4DD2-9CC6-FEC8538393CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Target_throw" ID="{93905C33-9BAB-40D2-A897-D533188627A7}">
+					<ChildrenList>
+						<Action Name="" ID="{79C58B79-25D1-4A8D-B78A-F0017B0217A5}" ShortID="976279935">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Target_Throw" ID="{2E080C4F-4656-4D17-8F37-ED7476D37BCF}" WorkUnitID="{77F93D4B-590C-4DD2-9CC6-FEC8538393CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

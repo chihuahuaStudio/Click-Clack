@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" SchemaVersion="110">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{91DC46BA-BD0B-418E-B84D-27FF87F506A4}" PersistMode="Standalone">
 			<ChildrenList>
@@ -38,7 +38,6 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="retro_damage_hurt_ouch_49" ID="{4D424F03-8228-487C-A98F-F12C17EAAF96}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -76,7 +75,6 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="retro_damage_hurt_ouch_55" ID="{3B58690F-FF6F-4810-958E-3A30A0611C84}" Platform="Linked"/>
 					</ActiveSourceList>
@@ -114,7 +112,6 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
-					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="retro_damage_hurt_ouch_47" ID="{65DDD779-0789-49DF-8B2F-755317D85536}" Platform="Linked"/>
 					</ActiveSourceList>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" SchemaVersion="103" RootDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" ParentDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}">
+<WwiseDocument Type="WorkUnit" ID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" SchemaVersion="110" RootDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" ParentDocumentID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}">
 	<Events>
 		<WorkUnit Name="Gameplay" ID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" OwnerID="{0EECFBB5-4A80-4018-BC40-37E30AFE9358}" PersistMode="Nested">
 			<ChildrenList>

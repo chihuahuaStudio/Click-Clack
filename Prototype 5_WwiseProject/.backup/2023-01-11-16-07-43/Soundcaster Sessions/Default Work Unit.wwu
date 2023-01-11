@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{71FE5C06-5EEF-4B62-8A34-124AD2618BED}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{71FE5C06-5EEF-4B62-8A34-124AD2618BED}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music" ID="{732353D0-44CE-45FF-A129-3AAF7D77E444}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music" ID="{5DC80608-C313-4165-A998-C9FDE4B1F08A}" WorkUnitID="{2622A4AE-2BED-424A-8678-CE722117043E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GameOver" ID="{BBE6CB7E-5F83-4816-BC87-CFADD4A9A5DE}" WorkUnitID="{F353055B-1BE0-4E01-9C83-737302165535}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Master_Volume" ID="{E3FF5390-92A4-435D-AFF3-74B67A3DE2D6}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Volume" ID="{F4877787-100B-4630-89D0-77898CD8EC5E}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFX_Volume" ID="{CB5E3C49-9797-4C5A-BFEA-2BDB67E13211}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Music_Playback" ID="{D9FADB0E-7383-4C71-B676-967599A99B40}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="GamepLay_Medium" ID="{627E2FA8-AFBF-4E59-A073-73E716AAC8FA}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
