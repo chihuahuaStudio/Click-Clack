@@ -11,6 +11,11 @@ using UnityEditor;
 /// </summary>
 public class GameManager : MonoBehaviour
 {
+    #region Class fields
+
+    
+
+    
     /// <summary>
     /// Singleton instance of this class
     /// </summary>
@@ -22,10 +27,12 @@ public class GameManager : MonoBehaviour
     // public GameObject titleScreen;
     public GameObject startMusic;
     public bool isGameActive;
-
     
-   
     private float spawnRate = 1f;
+    
+    #endregion
+
+    #region Monobehaviours
 
     private void Awake()
     {
@@ -36,7 +43,11 @@ public class GameManager : MonoBehaviour
         }
         Singleton = this;
     }
-    
+
+    #endregion
+
+
+    #region Custom methods
 
     public void GameOver()
     {
@@ -49,7 +60,6 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         UIManager.Singleton.HideGameOverText();
-        // gameoverText.gameObject.SetActive(false);
         UIManager.Singleton.HideRestartButton();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
@@ -59,6 +69,11 @@ public class GameManager : MonoBehaviour
         isGameActive = true;
         UIManager.Singleton.ShowScore();
     }
+    
+
+    #endregion
+
+   
 
     
 }
