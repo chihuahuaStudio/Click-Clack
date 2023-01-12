@@ -1,388 +1,392 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
-		<ProjectRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Git/Click-Clack/Prototype 5_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Git/Click-Clack/Prototype 5_WwiseProject/.cache/Mac/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Git/Click-Clack/Prototype 5_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/fernandofranco/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Unity/Git/Click-Clack/Prototype 5_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
-	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="89505537" Language="SFX" Hash="3190694067">
-			<ObjectPath>\SoundBanks\Default Work Unit\Gameplay</ObjectPath>
+		<SoundBank Id="89505537" Type="User" Language="SFX" Hash="{D9F7D55C-3B21-47B8-7B1A-164B3E3E95B0}">
 			<ShortName>Gameplay</ShortName>
 			<Path>Gameplay.bnk</Path>
-			<IncludedEvents>
-				<Event Id="2004433286" Name="Play_Bomb_Target" ObjectPath="\Events\Default Work Unit\Gameplay\Play_Bomb_Target" DurationType="OneShot" DurationMin="0.734222" DurationMax="1.452787">
-					<IncludedMemoryFiles>
-						<File Id="167538311" Language="SFX">
-							<ShortName>retro_explosion_short_02.wav</ShortName>
-							<Path>SFX/retro_explosion_short_02_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="180916797" Language="SFX">
-							<ShortName>retro_explosion_deep_04.wav</ShortName>
-							<Path>SFX/retro_explosion_deep_04_EA47D305.wem</Path>
-						</File>
-						<File Id="200847327" Language="SFX">
-							<ShortName>retro_explosion_short_03.wav</ShortName>
-							<Path>SFX/retro_explosion_short_03_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="324184324" Language="SFX">
-							<ShortName>retro_explosion_deep_03.wav</ShortName>
-							<Path>SFX/retro_explosion_deep_03_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="675904116" Language="SFX">
-							<ShortName>retro_explosion_deep_02.wav</ShortName>
-							<Path>SFX/retro_explosion_deep_02_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="1039275182" Language="SFX">
-							<ShortName>retro_explosion_short_01.wav</ShortName>
-							<Path>SFX/retro_explosion_short_01_EB0C5B6A.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+			<Media>
+				<File Id="18261518" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_eat_collect_01.wav</ShortName>
+					<CachePath>SFX/retro_eat_collect_01_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="116615151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_jump_bounce_12.wav</ShortName>
+					<CachePath>SFX/retro_jump_bounce_12_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="167538311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_explosion_short_02.wav</ShortName>
+					<CachePath>SFX/retro_explosion_short_02_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="180916797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_explosion_deep_04.wav</ShortName>
+					<CachePath>SFX/retro_explosion_deep_04_EA47D305.wem</CachePath>
+				</File>
+				<File Id="189194074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_jump_bounce_04.wav</ShortName>
+					<CachePath>SFX/retro_jump_bounce_04_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="200847327" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_explosion_short_03.wav</ShortName>
+					<CachePath>SFX/retro_explosion_short_03_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="324184324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_explosion_deep_03.wav</ShortName>
+					<CachePath>SFX/retro_explosion_deep_03_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="418627354" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_jump_bounce_09.wav</ShortName>
+					<CachePath>SFX/retro_jump_bounce_09_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="484142301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_collect_pickup_item_04.wav</ShortName>
+					<CachePath>SFX/retro_collect_pickup_item_04_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="516564629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_collect_pickup_item_01.wav</ShortName>
+					<CachePath>SFX/retro_collect_pickup_item_01_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="538708946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_eat_collect_05.wav</ShortName>
+					<CachePath>SFX/retro_eat_collect_05_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="661637772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_jump_bounce_18.wav</ShortName>
+					<CachePath>SFX/retro_jump_bounce_18_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="675904116" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_explosion_deep_02.wav</ShortName>
+					<CachePath>SFX/retro_explosion_deep_02_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="833137413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_eat_collect_03.wav</ShortName>
+					<CachePath>SFX/retro_eat_collect_03_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="966560515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_collect_pickup_item_02.wav</ShortName>
+					<CachePath>SFX/retro_collect_pickup_item_02_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="1021010064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_collect_pickup_item_03.wav</ShortName>
+					<CachePath>SFX/retro_collect_pickup_item_03_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="1039275182" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_explosion_short_01.wav</ShortName>
+					<CachePath>SFX/retro_explosion_short_01_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="1045614422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_eat_collect_02.wav</ShortName>
+					<CachePath>SFX/retro_eat_collect_02_EB0C5B6A.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2004433286" Name="Play_Bomb_Target" DurationType="OneShot" DurationMin="0.7342223" DurationMax="1.4527866">
+					<MediaRefs>
+						<MediaRef Id="167538311"/>
+						<MediaRef Id="180916797"/>
+						<MediaRef Id="200847327"/>
+						<MediaRef Id="324184324"/>
+						<MediaRef Id="675904116"/>
+						<MediaRef Id="1039275182"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="1273958970" Name="Play_GoodTarget_Sound" ObjectPath="\Events\Default Work Unit\Gameplay\Play_GoodTarget_Sound" DurationType="OneShot" DurationMin="0.142822" DurationMax="0.50254">
-					<IncludedMemoryFiles>
-						<File Id="18261518" Language="SFX">
-							<ShortName>retro_eat_collect_01.wav</ShortName>
-							<Path>SFX/retro_eat_collect_01_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="167538311" Language="SFX">
-							<ShortName>retro_explosion_short_02.wav</ShortName>
-							<Path>SFX/retro_explosion_short_02_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="200847327" Language="SFX">
-							<ShortName>retro_explosion_short_03.wav</ShortName>
-							<Path>SFX/retro_explosion_short_03_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="484142301" Language="SFX">
-							<ShortName>retro_collect_pickup_item_04.wav</ShortName>
-							<Path>SFX/retro_collect_pickup_item_04_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="516564629" Language="SFX">
-							<ShortName>retro_collect_pickup_item_01.wav</ShortName>
-							<Path>SFX/retro_collect_pickup_item_01_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="538708946" Language="SFX">
-							<ShortName>retro_eat_collect_05.wav</ShortName>
-							<Path>SFX/retro_eat_collect_05_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="833137413" Language="SFX">
-							<ShortName>retro_eat_collect_03.wav</ShortName>
-							<Path>SFX/retro_eat_collect_03_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="966560515" Language="SFX">
-							<ShortName>retro_collect_pickup_item_02.wav</ShortName>
-							<Path>SFX/retro_collect_pickup_item_02_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="1021010064" Language="SFX">
-							<ShortName>retro_collect_pickup_item_03.wav</ShortName>
-							<Path>SFX/retro_collect_pickup_item_03_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="1039275182" Language="SFX">
-							<ShortName>retro_explosion_short_01.wav</ShortName>
-							<Path>SFX/retro_explosion_short_01_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="1045614422" Language="SFX">
-							<ShortName>retro_eat_collect_02.wav</ShortName>
-							<Path>SFX/retro_eat_collect_02_EB0C5B6A.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+				<Event Id="1273958970" Name="Play_GoodTarget_Sound" DurationType="OneShot" DurationMin="0.1428218" DurationMax="0.50253993">
+					<MediaRefs>
+						<MediaRef Id="18261518"/>
+						<MediaRef Id="167538311"/>
+						<MediaRef Id="200847327"/>
+						<MediaRef Id="484142301"/>
+						<MediaRef Id="516564629"/>
+						<MediaRef Id="538708946"/>
+						<MediaRef Id="833137413"/>
+						<MediaRef Id="966560515"/>
+						<MediaRef Id="1021010064"/>
+						<MediaRef Id="1039275182"/>
+						<MediaRef Id="1045614422"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="3024796816" Name="Play_Target_throw" ObjectPath="\Events\Default Work Unit\Gameplay\Play_Target_throw" DurationType="OneShot" DurationMin="0.217103" DurationMax="0.689726">
-					<IncludedMemoryFiles>
-						<File Id="116615151" Language="SFX">
-							<ShortName>retro_jump_bounce_12.wav</ShortName>
-							<Path>SFX/retro_jump_bounce_12_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="189194074" Language="SFX">
-							<ShortName>retro_jump_bounce_04.wav</ShortName>
-							<Path>SFX/retro_jump_bounce_04_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="418627354" Language="SFX">
-							<ShortName>retro_jump_bounce_09.wav</ShortName>
-							<Path>SFX/retro_jump_bounce_09_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="661637772" Language="SFX">
-							<ShortName>retro_jump_bounce_18.wav</ShortName>
-							<Path>SFX/retro_jump_bounce_18_EB0C5B6A.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+				<Event Id="3024796816" Name="Play_Target_throw" DurationType="OneShot" DurationMin="0.21710263" DurationMax="0.68972576">
+					<MediaRefs>
+						<MediaRef Id="116615151"/>
+						<MediaRef Id="189194074"/>
+						<MediaRef Id="418627354"/>
+						<MediaRef Id="661637772"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-			</IncludedEvents>
+			</Events>
 			<GameParameters>
-				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2842517822">
-			<ObjectPath>Init</ObjectPath>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1E3C1E80-9209-B43A-2726-3ACDDE91F12D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
-			<IncludedAuxBusses>
-				<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-			</IncludedAuxBusses>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2900412812" Name="Robotic_Trash" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="3792279061" Name="SFX_reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2900412812"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
-				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume"/>
+				<GameParameter Id="1006694123" Name="Music_Volume"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume"/>
+				<GameParameter Id="3710016230" Name="Music_Playback"/>
+				<GameParameter Id="4179668880" Name="Master_Volume"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3991942870" Name="Music">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="1551306167" Name="UI"/>
+						<State Id="2586383859" Name="Gameplay_Hard"/>
+						<State Id="3416629257" Name="GamepLay_Medium"/>
+						<State Id="3667619686" Name="Gameplay_Easy"/>
+						<State Id="4158285989" Name="GameOver"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Language="SFX" Hash="769819707">
-			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{25C933EC-F218-8CEF-4FE3-AB1B918D165B}">
 			<ShortName>UI</ShortName>
 			<Path>UI.bnk</Path>
-			<IncludedEvents>
-				<Event Id="2032300677" Name="UI_Button_Audio" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Audio" DurationType="OneShot" DurationMin="0.209167" DurationMax="0.209167">
-					<IncludedMemoryFiles>
-						<File Id="428874232" Language="SFX">
-							<ShortName>retro_blip_beep_34.wav</ShortName>
-							<Path>SFX/retro_blip_beep_34_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="587733577" Language="SFX">
-							<ShortName>ui_button_simple_click_07.wav</ShortName>
-							<Path>SFX/ui_button_simple_click_07_7FB50428.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+			<Media>
+				<File Id="428874232" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>retro_blip_beep_34.wav</ShortName>
+					<CachePath>SFX/retro_blip_beep_34_EB0C5B6A.wem</CachePath>
+				</File>
+				<File Id="587733577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ui_button_simple_click_07.wav</ShortName>
+					<CachePath>SFX/ui_button_simple_click_07_7FB50428.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2032300677" Name="UI_Button_Audio" DurationType="OneShot" DurationMin="0.2091671" DurationMax="0.2091671">
+					<MediaRefs>
+						<MediaRef Id="428874232"/>
+						<MediaRef Id="587733577"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="2556651335" Name="UI_Button_Easy" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Easy" DurationType="OneShot" DurationMin="0.151361" DurationMax="0.151361">
-					<IncludedMemoryFiles>
-						<File Id="428874232" Language="SFX">
-							<ShortName>retro_blip_beep_34.wav</ShortName>
-							<Path>SFX/retro_blip_beep_34_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="587733577" Language="SFX">
-							<ShortName>ui_button_simple_click_07.wav</ShortName>
-							<Path>SFX/ui_button_simple_click_07_7FB50428.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+				<Event Id="2556651335" Name="UI_Button_Easy" DurationType="OneShot" DurationMin="0.15136054" DurationMax="0.15136054">
+					<MediaRefs>
+						<MediaRef Id="428874232"/>
+						<MediaRef Id="587733577"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="2826930930" Name="UI_Button_Hard" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Hard" DurationType="OneShot" DurationMin="0.101021" DurationMax="0.101021">
-					<IncludedMemoryFiles>
-						<File Id="428874232" Language="SFX">
-							<ShortName>retro_blip_beep_34.wav</ShortName>
-							<Path>SFX/retro_blip_beep_34_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="587733577" Language="SFX">
-							<ShortName>ui_button_simple_click_07.wav</ShortName>
-							<Path>SFX/ui_button_simple_click_07_7FB50428.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+				<Event Id="2826930930" Name="UI_Button_Hard" DurationType="OneShot" DurationMin="0.10102104" DurationMax="0.10102104">
+					<MediaRefs>
+						<MediaRef Id="428874232"/>
+						<MediaRef Id="587733577"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="2726853616" Name="UI_Button_Help" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Help" DurationType="OneShot" DurationMin="0.07568" DurationMax="0.07568">
-					<IncludedMemoryFiles>
-						<File Id="428874232" Language="SFX">
-							<ShortName>retro_blip_beep_34.wav</ShortName>
-							<Path>SFX/retro_blip_beep_34_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="587733577" Language="SFX">
-							<ShortName>ui_button_simple_click_07.wav</ShortName>
-							<Path>SFX/ui_button_simple_click_07_7FB50428.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+				<Event Id="2726853616" Name="UI_Button_Help" DurationType="OneShot" DurationMin="0.07568027" DurationMax="0.07568027">
+					<MediaRefs>
+						<MediaRef Id="428874232"/>
+						<MediaRef Id="587733577"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="4079845416" Name="UI_Button_Main_Menu" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Main_Menu" DurationType="OneShot" DurationMin="0.060067" DurationMax="0.060067">
-					<IncludedMemoryFiles>
-						<File Id="428874232" Language="SFX">
-							<ShortName>retro_blip_beep_34.wav</ShortName>
-							<Path>SFX/retro_blip_beep_34_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="587733577" Language="SFX">
-							<ShortName>ui_button_simple_click_07.wav</ShortName>
-							<Path>SFX/ui_button_simple_click_07_7FB50428.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+				<Event Id="4079845416" Name="UI_Button_Main_Menu" DurationType="OneShot" DurationMin="0.06006747" DurationMax="0.06006747">
+					<MediaRefs>
+						<MediaRef Id="428874232"/>
+						<MediaRef Id="587733577"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="2414566500" Name="UI_Button_Medium" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Medium" DurationType="OneShot" DurationMin="0.120135" DurationMax="0.120135">
-					<IncludedMemoryFiles>
-						<File Id="428874232" Language="SFX">
-							<ShortName>retro_blip_beep_34.wav</ShortName>
-							<Path>SFX/retro_blip_beep_34_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="587733577" Language="SFX">
-							<ShortName>ui_button_simple_click_07.wav</ShortName>
-							<Path>SFX/ui_button_simple_click_07_7FB50428.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+				<Event Id="2414566500" Name="UI_Button_Medium" DurationType="OneShot" DurationMin="0.12013494" DurationMax="0.12013494">
+					<MediaRefs>
+						<MediaRef Id="428874232"/>
+						<MediaRef Id="587733577"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="4235982132" Name="UI_Button_Quit" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Quit" DurationType="OneShot" DurationMin="0.050511" DurationMax="0.050511">
-					<IncludedMemoryFiles>
-						<File Id="428874232" Language="SFX">
-							<ShortName>retro_blip_beep_34.wav</ShortName>
-							<Path>SFX/retro_blip_beep_34_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="587733577" Language="SFX">
-							<ShortName>ui_button_simple_click_07.wav</ShortName>
-							<Path>SFX/ui_button_simple_click_07_7FB50428.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+				<Event Id="4235982132" Name="UI_Button_Quit" DurationType="OneShot" DurationMin="0.05051052" DurationMax="0.05051052">
+					<MediaRefs>
+						<MediaRef Id="428874232"/>
+						<MediaRef Id="587733577"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-				<Event Id="3527493374" Name="UI_Button_Restart" ObjectPath="\Events\Default Work Unit\UI\UI_Button_Restart" DurationType="OneShot" DurationMin="0.302721" DurationMax="0.302721">
-					<IncludedMemoryFiles>
-						<File Id="428874232" Language="SFX">
-							<ShortName>retro_blip_beep_34.wav</ShortName>
-							<Path>SFX/retro_blip_beep_34_EB0C5B6A.wem</Path>
-						</File>
-						<File Id="587733577" Language="SFX">
-							<ShortName>ui_button_simple_click_07.wav</ShortName>
-							<Path>SFX/ui_button_simple_click_07_7FB50428.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3792279061" Name="SFX_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\SFX_reverb"/>
-					</AuxBusSends>
+				<Event Id="3527493374" Name="UI_Button_Restart" DurationType="OneShot" DurationMin="0.30272108" DurationMax="0.30272108">
+					<MediaRefs>
+						<MediaRef Id="428874232"/>
+						<MediaRef Id="587733577"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
+					</AuxBusRefs>
 				</Event>
-			</IncludedEvents>
+			</Events>
 			<GameParameters>
-				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="221724217">
-			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{5D4F3916-12D2-C04F-718B-52C14C96253C}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
-			<IncludedEvents>
-				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\Music\GameOver" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Music\Play_Music" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="61520305" Language="SFX">
-							<ShortName>Theme_Bridge_160_44_8m_Medium.wav</ShortName>
-							<Path>SFX/Theme_Bridge_160_44_8m_Medium_72E55134.wem</Path>
-						</File>
-						<File Id="74117674" Language="SFX">
-							<ShortName>Main_Theme2_160_44_8M_Easy.wav</ShortName>
-							<Path>SFX/Main_Theme2_160_44_8M_Easy_72E55134.wem</Path>
-						</File>
-						<File Id="80165475" Language="SFX">
-							<ShortName>Theme_Bridge_160_44_8m_Hard.wav</ShortName>
-							<Path>SFX/Theme_Bridge_160_44_8m_Hard_72E55134.wem</Path>
-						</File>
-						<File Id="88414074" Language="SFX">
-							<ShortName>Master Stems\Theme_Bridge_160_44.wav</ShortName>
-							<Path>SFX/Master Stems/Theme_Bridge_160_44_72E55134.wem</Path>
-						</File>
-						<File Id="188471864" Language="SFX">
-							<ShortName>Theme_Bridge_160_44_8M_Easy.wav</ShortName>
-							<Path>SFX/Theme_Bridge_160_44_8M_Easy_72E55134.wem</Path>
-						</File>
-						<File Id="235808038" Language="SFX">
-							<ShortName>Main_Theme3_160_44_8M_Easy.wav</ShortName>
-							<Path>SFX/Main_Theme3_160_44_8M_Easy_72E55134.wem</Path>
-						</File>
-						<File Id="511380606" Language="SFX">
-							<ShortName>Main_Theme3_160_44_8M_Medium.wav</ShortName>
-							<Path>SFX/Main_Theme3_160_44_8M_Medium_72E55134.wem</Path>
-						</File>
-						<File Id="578778536" Language="SFX">
-							<ShortName>Main_Theme2_160_44_8M_Medium.wav</ShortName>
-							<Path>SFX/Main_Theme2_160_44_8M_Medium_72E55134.wem</Path>
-						</File>
-						<File Id="665706815" Language="SFX">
-							<ShortName>Main_Theme_160_44_8M_Easy.wav</ShortName>
-							<Path>SFX/Main_Theme_160_44_8M_Easy_72E55134.wem</Path>
-						</File>
-						<File Id="666106648" Language="SFX">
-							<ShortName>Main_Theme3_160_44_8M_Hard.wav</ShortName>
-							<Path>SFX/Main_Theme3_160_44_8M_Hard_72E55134.wem</Path>
-						</File>
-						<File Id="689256366" Language="SFX">
-							<ShortName>Main_Theme_160_44_8M_Medium.wav</ShortName>
-							<Path>SFX/Main_Theme_160_44_8M_Medium_72E55134.wem</Path>
-						</File>
-						<File Id="883506656" Language="SFX">
-							<ShortName>Main_Theme2_160_44_8M_Hard.wav</ShortName>
-							<Path>SFX/Main_Theme2_160_44_8M_Hard_72E55134.wem</Path>
-						</File>
-						<File Id="1039184121" Language="SFX">
-							<ShortName>Main_Theme_160_44_8M_Hard.wav</ShortName>
-							<Path>SFX/Main_Theme_160_44_8M_Hard_72E55134.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+			<Media>
+				<File Id="61520305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Theme_Bridge_160_44_8m_Medium.wav</ShortName>
+					<CachePath>SFX/Theme_Bridge_160_44_8m_Medium_72E55134.wem</CachePath>
+				</File>
+				<File Id="74117674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Theme2_160_44_8M_Easy.wav</ShortName>
+					<CachePath>SFX/Main_Theme2_160_44_8M_Easy_72E55134.wem</CachePath>
+				</File>
+				<File Id="80165475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Theme_Bridge_160_44_8m_Hard.wav</ShortName>
+					<CachePath>SFX/Theme_Bridge_160_44_8m_Hard_72E55134.wem</CachePath>
+				</File>
+				<File Id="88414074" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Master Stems\Theme_Bridge_160_44.wav</ShortName>
+					<CachePath>SFX/Master Stems/Theme_Bridge_160_44_72E55134.wem</CachePath>
+				</File>
+				<File Id="188471864" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Theme_Bridge_160_44_8M_Easy.wav</ShortName>
+					<CachePath>SFX/Theme_Bridge_160_44_8M_Easy_72E55134.wem</CachePath>
+				</File>
+				<File Id="235808038" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Theme3_160_44_8M_Easy.wav</ShortName>
+					<CachePath>SFX/Main_Theme3_160_44_8M_Easy_72E55134.wem</CachePath>
+				</File>
+				<File Id="511380606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Theme3_160_44_8M_Medium.wav</ShortName>
+					<CachePath>SFX/Main_Theme3_160_44_8M_Medium_72E55134.wem</CachePath>
+				</File>
+				<File Id="578778536" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Theme2_160_44_8M_Medium.wav</ShortName>
+					<CachePath>SFX/Main_Theme2_160_44_8M_Medium_72E55134.wem</CachePath>
+				</File>
+				<File Id="665706815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Theme_160_44_8M_Easy.wav</ShortName>
+					<CachePath>SFX/Main_Theme_160_44_8M_Easy_72E55134.wem</CachePath>
+				</File>
+				<File Id="666106648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Theme3_160_44_8M_Hard.wav</ShortName>
+					<CachePath>SFX/Main_Theme3_160_44_8M_Hard_72E55134.wem</CachePath>
+				</File>
+				<File Id="689256366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Theme_160_44_8M_Medium.wav</ShortName>
+					<CachePath>SFX/Main_Theme_160_44_8M_Medium_72E55134.wem</CachePath>
+				</File>
+				<File Id="883506656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Theme2_160_44_8M_Hard.wav</ShortName>
+					<CachePath>SFX/Main_Theme2_160_44_8M_Hard_72E55134.wem</CachePath>
+				</File>
+				<File Id="1039184121" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main_Theme_160_44_8M_Hard.wav</ShortName>
+					<CachePath>SFX/Main_Theme_160_44_8M_Hard_72E55134.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4158285989" Name="GameOver" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2932040671" Name="Play_Music" DurationType="Infinite">
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{5E1D734E-CAE9-4852-B215-D6CAC94C4A25}">
-							<Media>
-								<File Id="88414074"/>
-							</Media>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="1551306167"/>
+							<MediaRefs>
+								<MediaRef Id="88414074"/>
+							</MediaRefs>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{28A8BDBC-F84C-4846-8B68-DB368CBAF2FD}">
-							<Media>
-								<File Id="74117674"/>
-								<File Id="188471864"/>
-								<File Id="235808038"/>
-								<File Id="665706815"/>
-							</Media>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="3667619686"/>
+							<MediaRefs>
+								<MediaRef Id="74117674"/>
+								<MediaRef Id="188471864"/>
+								<MediaRef Id="235808038"/>
+								<MediaRef Id="665706815"/>
+							</MediaRefs>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{32CC5E72-E95C-4F21-ACA7-BFF4C6087967}">
-							<Media>
-								<File Id="80165475"/>
-								<File Id="666106648"/>
-								<File Id="883506656"/>
-								<File Id="1039184121"/>
-							</Media>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="2586383859"/>
+							<MediaRefs>
+								<MediaRef Id="80165475"/>
+								<MediaRef Id="666106648"/>
+								<MediaRef Id="883506656"/>
+								<MediaRef Id="1039184121"/>
+							</MediaRefs>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{627E2FA8-AFBF-4E59-A073-73E716AAC8FA}">
-							<Media>
-								<File Id="61520305"/>
-								<File Id="511380606"/>
-								<File Id="578778536"/>
-								<File Id="689256366"/>
-							</Media>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="3991942870" Id="3416629257"/>
+							<MediaRefs>
+								<MediaRef Id="61520305"/>
+								<MediaRef Id="511380606"/>
+								<MediaRef Id="578778536"/>
+								<MediaRef Id="689256366"/>
+							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionSetState>
-						<ActionSetStateEntry Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\Music\UI"/>
+						<ActionSetStateEntry GroupId="3991942870" Id="1551306167" Name="UI"/>
 					</ActionSetState>
 				</Event>
-			</IncludedEvents>
+			</Events>
 			<GameParameters>
-				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Music_Volume"/>
-				<GameParameter Id="3710016230" Name="Music_Playback" ObjectPath="\Game Parameters\Default Work Unit\Music\Music_Playback"/>
+				<GameParameter Id="1006694123" Name="Music_Volume"/>
+				<GameParameter Id="3710016230" Name="Music_Playback"/>
 			</GameParameters>
 			<StateGroups>
-				<StateGroup Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\Music\UI" GUID="{5E1D734E-CAE9-4852-B215-D6CAC94C4A25}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Default Work Unit\Music" GUID="{928DBD5D-0E59-4418-A093-C4F3C56BB162}">
+				<StateGroup Id="3991942870" Name="Music">
 					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music\None" GUID="{ABA22D17-DC44-4571-BA06-032118EF3168}"/>
-						<State Id="1551306167" Name="UI" ObjectPath="\States\Default Work Unit\Music\UI" GUID="{5E1D734E-CAE9-4852-B215-D6CAC94C4A25}"/>
-						<State Id="3667619686" Name="Gameplay_Easy" ObjectPath="\States\Default Work Unit\Music\Gameplay_Easy" GUID="{28A8BDBC-F84C-4846-8B68-DB368CBAF2FD}"/>
-						<State Id="3416629257" Name="GamepLay_Medium" ObjectPath="\States\Default Work Unit\Music\GamepLay_Medium" GUID="{627E2FA8-AFBF-4E59-A073-73E716AAC8FA}"/>
-						<State Id="2586383859" Name="Gameplay_Hard" ObjectPath="\States\Default Work Unit\Music\Gameplay_Hard" GUID="{32CC5E72-E95C-4F21-ACA7-BFF4C6087967}"/>
-						<State Id="4158285989" Name="GameOver" ObjectPath="\States\Default Work Unit\Music\GameOver" GUID="{3B5EDB5D-E75B-4922-BEEE-FE67B898E34F}"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1551306167" Name="UI"/>
+						<State Id="2586383859" Name="Gameplay_Hard"/>
+						<State Id="3416629257" Name="GamepLay_Medium"/>
+						<State Id="3667619686" Name="Gameplay_Easy"/>
+						<State Id="4158285989" Name="GameOver"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
+	<FileHash>{5DA56229-6CC5-8D95-3A64-D52A5CE47174}</FileHash>
 </SoundBanksInfo>

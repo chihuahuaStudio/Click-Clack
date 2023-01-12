@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(TrailRenderer), typeof(BoxCollider))]
 public class SwipeManager : MonoBehaviour

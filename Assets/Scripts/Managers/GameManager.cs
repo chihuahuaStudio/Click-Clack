@@ -1,10 +1,7 @@
 ﻿using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
+
 
 /// <summary>
 /// This class deals with the Application controls and Game states

@@ -33,7 +33,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="GamepLay_Medium" ID="{627E2FA8-AFBF-4E59-A073-73E716AAC8FA}"/>
+						<CurrentStateRef Name="UI" ID="{5E1D734E-CAE9-4852-B215-D6CAC94C4A25}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
