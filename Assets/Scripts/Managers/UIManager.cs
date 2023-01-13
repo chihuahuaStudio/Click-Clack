@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,9 +11,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject helpScreen;
     [SerializeField] private GameObject audioScreen;
     [SerializeField] private GameObject pauseScreen;
-    [SerializeField] private GameObject restartButton;
     [SerializeField] private GameObject scoreText;
-    [SerializeField] private GameObject gameOverText;
+    [FormerlySerializedAs("gameOverText")] [SerializeField] private GameObject gameOverScreen;
 
     private void Awake()
     {
@@ -68,17 +68,7 @@ public class UIManager : MonoBehaviour
     {
         pauseScreen.SetActive(false);
     }
-
-    public void ShowRestartButton()
-    {
-        restartButton.SetActive(true);
-    }
-
-    public void HideRestartButton()
-    {
-        restartButton.SetActive(false);
-    }
-
+    
     public void ShowScore()
     {
         scoreText.SetActive(true);
@@ -89,14 +79,14 @@ public class UIManager : MonoBehaviour
         scoreText.SetActive(false);
     }
 
-    public void ShowGameOverText()
+    public void ShowGameOverScreen()
     {
-        gameOverText.SetActive(true);
+        gameOverScreen.SetActive(true);
     }
 
-    public void HideGameOverText()
+    public void HideGameOverScreen()
     {
-        gameOverText.SetActive(false);
+        gameOverScreen.SetActive(false);
     }
     
     

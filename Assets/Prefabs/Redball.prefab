@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 5955205382791956138}
   - component: {fileID: 5966237470138303592}
   - component: {fileID: 5973556335830002216}
-  - component: {fileID: 5959528057804202122}
+  - component: {fileID: -3591621446104090907}
+  - component: {fileID: 2187996458990426003}
   - component: {fileID: 5959528057804202120}
   - component: {fileID: 1895929293904163022}
-  - component: {fileID: -3591621446104090907}
-  m_Layer: 0
-  m_Name: Good 4
+  m_Layer: 6
+  m_Name: Redball
   m_TagString: Good
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,8 +87,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5959528057804202122
-BoxCollider:
+--- !u!54 &-3591621446104090907
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5959050320737914144}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 10
+  m_CollisionDetection: 0
+--- !u!135 &2187996458990426003
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -98,7 +114,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5959528057804202120
 MonoBehaviour:
@@ -133,19 +149,3 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4eaace509d60343f5bae6956ee736265,
       type: 2}
---- !u!54 &-3591621446104090907
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5959050320737914144}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 8
-  m_CollisionDetection: 0

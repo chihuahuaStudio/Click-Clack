@@ -22,18 +22,7 @@ public class SwipeManager : MonoBehaviour
         
     }
 
-    private void UpdateMousePosition()
-    {
-        _mousPos = _cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
-            Input.mousePosition.y, 10.0f));
-        transform.position = _mousPos;
-    }
 
-    private void UpdateComponents()
-    {
-        _trail.enabled = swiping;
-        _col.enabled = swiping;
-    }
 
     private void Update()
     {
@@ -58,7 +47,7 @@ public class SwipeManager : MonoBehaviour
         }
 
     }
-
+    
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Good") || collision.gameObject.CompareTag("Bad"))
@@ -76,4 +65,19 @@ public class SwipeManager : MonoBehaviour
             AkSoundEngine.PostEvent("Play_Bomb_Target", gameObject);
         }
     }
+    
+    private void UpdateMousePosition()
+    {
+        _mousPos = _cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
+            Input.mousePosition.y, 10.0f));
+        transform.position = _mousPos;
+    }
+
+    private void UpdateComponents()
+    {
+        _trail.enabled = swiping;
+        _col.enabled = swiping;
+    }
+
+
 }

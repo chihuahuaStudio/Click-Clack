@@ -6,14 +6,14 @@ public class LivesManager : MonoBehaviour
     public delegate void lives();
     public static event lives lostLives;
     
-    public TextMeshProUGUI livesText;
+    // public TextMeshProUGUI livesText;
     public TextMeshProUGUI gameOverText;
     public static int LivesLeft = 3;
     public int targetLeftQuantity;
 
     private void Awake()
     {
-        gameOverText.gameObject.SetActive(false);
+        // gameOverText.gameObject.SetActive(false);
 
     }
 
@@ -31,7 +31,7 @@ public class LivesManager : MonoBehaviour
     {
         if(GameManager.Singleton.isGameActive)
         {
-            livesText.gameObject.SetActive(true);
+            // livesText.gameObject.SetActive(true);
         }
 
         if(LivesLeft == 0)
@@ -40,7 +40,7 @@ public class LivesManager : MonoBehaviour
             LivesLeft = 3;
         }
         
-        livesText.text = LivesLeft.ToString();
+        // livesText.text = LivesLeft.ToString();
 
     }
 

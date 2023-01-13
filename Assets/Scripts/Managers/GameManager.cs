@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using TMPro;
 using UnityEngine.SceneManagement;
 
 
@@ -19,13 +18,9 @@ public class GameManager : MonoBehaviour
     public static GameManager Singleton { get; private set;}
     
     [Header("Game Manager Settings")]
-    public TextMeshProUGUI gameoverText;
-    // public Button restartButton;
-    // public GameObject titleScreen;
     public GameObject startMusic;
     public bool isGameActive;
     
-    private float spawnRate = 1f;
     
     #endregion
 
@@ -49,15 +44,14 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         isGameActive = false;
-        UIManager.Singleton.ShowGameOverText();
-        UIManager.Singleton.ShowRestartButton();
+        Cursor.visible = true;
+        UIManager.Singleton.ShowGameOverScreen();
         AkSoundEngine.PostEvent("GameOver", startMusic);
     }
 
     public void RestartGame()
     {
-        UIManager.Singleton.HideGameOverText();
-        UIManager.Singleton.HideRestartButton();
+        UIManager.Singleton.HideGameOverScreen();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
