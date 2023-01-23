@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 
@@ -16,6 +15,8 @@ public class VolumeControls : MonoBehaviour
     [SerializeField] string masterParameter = "masterSliderValue";
     [SerializeField] string sfxParameter = "sfxSliderValue";
 
+    private const float DEFAULT_SLIDER_VALUE = 75.0f;
+
     private void Awake()
     {
         mainMenu.onClick.AddListener(ReturnToMainMenu);
@@ -27,6 +28,14 @@ public class VolumeControls : MonoBehaviour
         masterSlider.value = PlayerPrefs.GetFloat(masterParameter, masterSlider.value);
         musicSlider.value = PlayerPrefs.GetFloat(musicParameter, musicSlider.value);
         sfxSlider.value = PlayerPrefs.GetFloat(sfxParameter, sfxSlider.value);
+    }
+
+    private void Start()
+    {
+        masterSlider.value = DEFAULT_SLIDER_VALUE;
+        musicSlider.value = DEFAULT_SLIDER_VALUE;
+        sfxSlider.value = DEFAULT_SLIDER_VALUE;
+
     }
 
     private void SFXVolumeControl(float arg0)

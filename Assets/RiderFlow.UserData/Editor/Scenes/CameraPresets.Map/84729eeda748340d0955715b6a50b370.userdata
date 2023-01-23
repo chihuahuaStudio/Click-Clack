@@ -1,0 +1,28 @@
+{
+  "88cbeb76536934b0d8a0ca0cf00b251d": {
+    "sceneGuid": "84729eeda748340d0955715b6a50b370",
+    "uniqueCameraId": "88cbeb76536934b0d8a0ca0cf00b251d",
+    "name": "Canvas debug view",
+    "pointX": 960.0,
+    "pointY": 540.0,
+    "pointZ": 0.0,
+    "directionX": 0.0116900066,
+    "directionY": 0.002097199,
+    "directionZ": 2.18503646E-05,
+    "directionW": -0.999936342,
+    "zoom": 562.5725
+  },
+  "aac47eaa2d36b46af816c3c05af6e569": {
+    "sceneGuid": "84729eeda748340d0955715b6a50b370",
+    "uniqueCameraId": "aac47eaa2d36b46af816c3c05af6e569",
+    "name": "Target Physic debug view",
+    "pointX": 0.0,
+    "pointY": 2.17,
+    "pointZ": 10.0,
+    "directionX": 0.01957699,
+    "directionY": -0.5627562,
+    "directionZ": -0.0133368,
+    "directionW": -0.8262918,
+    "zoom": 15.5014029
+  }
+}

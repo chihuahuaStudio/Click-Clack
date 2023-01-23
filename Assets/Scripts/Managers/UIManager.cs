@@ -6,13 +6,19 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Singleton { get; private set; }
     
+    [FormerlySerializedAs("startScreen")]
     [Header("UI Manager Settings")]
-    [SerializeField] private GameObject startScreen;
-    [SerializeField] private GameObject helpScreen;
-    [SerializeField] private GameObject audioScreen;
-    [SerializeField] private GameObject pauseScreen;
-    [SerializeField] private GameObject scoreText;
-    [FormerlySerializedAs("gameOverText")] [SerializeField] private GameObject gameOverScreen;
+    [SerializeField] private GameObject startScreenInteractables;
+    [SerializeField] private GameObject startScreenText;
+    [FormerlySerializedAs("helpScreen")] [SerializeField] private GameObject helpScreenInteractables;
+    [SerializeField] private GameObject helpScreenText;
+    [FormerlySerializedAs("audioScreen")] [SerializeField] private GameObject audioScreenInteractables;
+    [SerializeField] private GameObject audioScreenText;
+    [FormerlySerializedAs("pauseScreen")] [SerializeField] private GameObject pauseScreenInteractables;
+    [SerializeField] private GameObject pauseScreenText;
+    [FormerlySerializedAs("scoreText")] [SerializeField] private GameObject scoreTextInteractbles;
+    [FormerlySerializedAs("gameOverText")] [SerializeField] private GameObject gameOverScreenInteractables;
+    [SerializeField] private GameObject gameOverScreenText;
 
     private void Awake()
     {
@@ -31,62 +37,73 @@ public class UIManager : MonoBehaviour
 
     public void HideStartScreen()
     {
-        startScreen.SetActive(false);
+        startScreenInteractables.SetActive(false);
+        startScreenText.SetActive(false);
     }
 
     public void ShowStartScreen()
     {
-        startScreen.SetActive(true);
+        startScreenInteractables.SetActive(true);
+        startScreenText.SetActive(true);
     }
 
     public void ShowHelpScreen()
     {
-        helpScreen.SetActive(true);
+        helpScreenInteractables.SetActive(true);
+        helpScreenText.SetActive(true);
     }
 
     public void HideHelpScreen()
     {
-        helpScreen.SetActive(false);
+        helpScreenInteractables.SetActive(false);
+        helpScreenText.SetActive(false);
     }
+    
 
     public void ShowAudioScreen()
     {
-        audioScreen.SetActive(true);
+        audioScreenInteractables.SetActive(true);
+        audioScreenText.SetActive(true);
     }
 
     public void HideAudioScreen()
     {
-        audioScreen.SetActive(false);
+        audioScreenInteractables.SetActive(false);
+        audioScreenText.SetActive(false);
     }
 
     public void ShowPauseScreen()
     {
-        pauseScreen.SetActive(true);
+        pauseScreenInteractables.SetActive(true);
+        pauseScreenText.SetActive(true);
     }
 
     public void HidePauseScreen()
     {
-        pauseScreen.SetActive(false);
+        pauseScreenInteractables.SetActive(false);
+        pauseScreenText.SetActive(false);
     }
     
     public void ShowScore()
     {
-        scoreText.SetActive(true);
+        scoreTextInteractbles.SetActive(true);
     }
 
     public void HideScore()
     {
-        scoreText.SetActive(false);
+        scoreTextInteractbles.SetActive(false);
     }
 
     public void ShowGameOverScreen()
     {
-        gameOverScreen.SetActive(true);
+        gameOverScreenInteractables.SetActive(true);
+        gameOverScreenText.SetActive(true);
     }
 
     public void HideGameOverScreen()
     {
-        gameOverScreen.SetActive(false);
+        gameOverScreenInteractables.SetActive(false);
+        gameOverScreenText.SetActive(false);
     }
     
     

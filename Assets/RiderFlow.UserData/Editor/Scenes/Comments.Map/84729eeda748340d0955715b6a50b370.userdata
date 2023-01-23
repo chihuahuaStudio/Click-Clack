@@ -4,5 +4,11 @@
     "CommentText": "I Should chceck if we can change color background or style\n",
     "AssetGUID": "84729eeda748340d0955715b6a50b370",
     "UniqueItemID": "GlobalObjectId_V1-2-84729eeda748340d0955715b6a50b370-1829648827-0"
+  },
+  "GlobalObjectId_V1-2-84729eeda748340d0955715b6a50b370-2033634246-0": {
+    "GameObjectId": "GlobalObjectId_V1-2-84729eeda748340d0955715b6a50b370-2033634246-0",
+    "CommentText": "Must add Default audio values\n",
+    "AssetGUID": "84729eeda748340d0955715b6a50b370",
+    "UniqueItemID": "GlobalObjectId_V1-2-84729eeda748340d0955715b6a50b370-2033634246-0"
   }
 }
