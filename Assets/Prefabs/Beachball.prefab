@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -499284908594477274}
   - component: {fileID: 7890726085826066355}
   - component: {fileID: 4961468161654031923}
-  - component: {fileID: 2442486200693897036}
+  - component: {fileID: 8674793013900499982}
   m_Layer: 6
   m_Name: Beachball
   m_TagString: Good
@@ -128,10 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76d09689077904958a13c7fa6f5bf000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosion: {fileID: 2088871590894813759, guid: 745208c9d6e104225bd99e1ab894e3bb,
-    type: 3}
-  pointValue: 15
---- !u!114 &2442486200693897036
+--- !u!114 &8674793013900499982
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,12 +137,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4962587270746416363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 576276ed3cf4d47aab4f10aaf7eb2b67, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d023801e796a4e98aee888559b3e197, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseScript: {fileID: 0}
-  goodTargetSound:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4eaace509d60343f5bae6956ee736265,
-      type: 2}
+  targetData: {fileID: 11400000, guid: 3eca913784613428ab73b4e1b885328f, type: 2}

@@ -1,19 +1,21 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GoodTargetSounds : MonoBehaviour
 {
-    public PauseManager pauseScript;
+
     public AK.Wwise.Event goodTargetSound;
 
-    private void Awake()
+    private void Update()
     {
-        pauseScript = GameObject.Find("PauseManager").GetComponent<PauseManager>();
+        //only for enable function
     }
+
     private void OnMouseDown()
     {
-        if(!pauseScript.isGamePaused)
+        if(!PauseManager.Singleton.isGamePaused)
         {
             goodTargetSound.Post(gameObject);
         }

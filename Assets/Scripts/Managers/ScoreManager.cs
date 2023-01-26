@@ -7,7 +7,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Singleton { get; private set;}
     [Header("Score Settings")] 
     [SerializeField] private TextMeshProUGUI scoreText;
-
+    
     private int _score;
 
     private const int DEFAULT_SCORE = 0;

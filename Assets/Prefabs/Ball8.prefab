@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3041312325698235216}
   - component: {fileID: 4296263627781370174}
   - component: {fileID: 2358730318699105056}
-  - component: {fileID: 4161877811810260326}
+  - component: {fileID: 1901422617796531380}
   m_Layer: 6
   m_Name: Ball8
   m_TagString: Good
@@ -128,10 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76d09689077904958a13c7fa6f5bf000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosion: {fileID: 2478549635105912040, guid: ec46c8c4a3cbc429382ee48bd9169b45,
-    type: 3}
-  pointValue: 5
---- !u!114 &4161877811810260326
+--- !u!114 &1901422617796531380
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,12 +137,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2359532718083456482}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 576276ed3cf4d47aab4f10aaf7eb2b67, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d023801e796a4e98aee888559b3e197, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseScript: {fileID: 0}
-  goodTargetSound:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4eaace509d60343f5bae6956ee736265,
-      type: 2}
+  targetData: {fileID: 11400000, guid: a837df3a2fded4de68f30e0248fb0cf6, type: 2}

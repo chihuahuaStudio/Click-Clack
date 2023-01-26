@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using TMPro;
 using UnityEngine.Serialization;
 
 public class UIManager : MonoBehaviour
@@ -19,6 +20,7 @@ public class UIManager : MonoBehaviour
     [FormerlySerializedAs("scoreText")] [SerializeField] private GameObject scoreTextInteractbles;
     [FormerlySerializedAs("gameOverText")] [SerializeField] private GameObject gameOverScreenInteractables;
     [SerializeField] private GameObject gameOverScreenText;
+    // [SerializeField] private TextMeshProUGUI scoreText;
 
     private void Awake()
     {
@@ -105,8 +107,11 @@ public class UIManager : MonoBehaviour
         gameOverScreenInteractables.SetActive(false);
         gameOverScreenText.SetActive(false);
     }
+
+    // public void UpdateScoreText(int score)
+    // {
+    //     scoreText.text = "Score: " +  score;
+    // }
     
     
-
-
 }

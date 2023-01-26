@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2815567321969720977}
   - component: {fileID: 7249720805770287964}
   - component: {fileID: 6769469285373648367}
+  - component: {fileID: 3629752134601285289}
   m_Layer: 6
   m_Name: Bomb
   m_TagString: Bad
@@ -136,9 +137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76d09689077904958a13c7fa6f5bf000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosion: {fileID: 4758139293545943008, guid: c7ad2532a6eeb40b59033c75e71fa054,
-    type: 3}
-  pointValue: -10
 --- !u!114 &7249720805770287964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,3 +162,16 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.30479312
   m_Center: {x: -0.000000014901161, y: 0.08079566, z: 0.000000052154064}
+--- !u!114 &3629752134601285289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815916607844804595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d023801e796a4e98aee888559b3e197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetData: {fileID: 11400000, guid: 4dfd6593f0ef943d0bf76aadc2059a6a, type: 2}

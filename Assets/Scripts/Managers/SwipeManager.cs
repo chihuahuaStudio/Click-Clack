@@ -10,7 +10,7 @@ public class SwipeManager : MonoBehaviour
     private TrailRenderer _trail;
     private BoxCollider _col;
 
-    public bool swiping = false;
+    public bool swiping;
 
     private void Awake()
     {
@@ -21,9 +21,7 @@ public class SwipeManager : MonoBehaviour
         _col.enabled = false;
         
     }
-
-
-
+    
     private void Update()
     {
         if(GameManager.Singleton.isGameActive && !PauseManager.Singleton.isGamePaused)
@@ -46,24 +44,6 @@ public class SwipeManager : MonoBehaviour
             } 
         }
 
-    }
-    
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Good") || collision.gameObject.CompareTag("Bad"))
-        {
-            collision.gameObject.GetComponent<TargetScript>().DestroyTarget();
-        }
-        
-        if(collision.gameObject.CompareTag("Good") && swiping)
-        {
-            AkSoundEngine.PostEvent("Play_GoodTarget_Sound", gameObject);
-        }
-        
-        if(collision.gameObject.CompareTag("Bad") && swiping)
-        {
-            AkSoundEngine.PostEvent("Play_Bomb_Target", gameObject);
-        }
     }
     
     private void UpdateMousePosition()

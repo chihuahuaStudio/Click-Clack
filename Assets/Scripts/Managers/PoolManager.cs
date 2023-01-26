@@ -22,7 +22,8 @@ public class PoolManager : MonoBehaviour
     [SerializeField] private List<GameObject> pooledItems;
 
     private Transform _transform;
-    
+
+
     private void Awake()
     {
         if (Singleton != null)
@@ -76,7 +77,6 @@ public class PoolManager : MonoBehaviour
                     pooledItems.Add(go);
                 }
             }
-            
         }
         
     }
