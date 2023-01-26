@@ -7322,22 +7322,71 @@ MonoBehaviour:
   - prefab: {fileID: 6904399397170132765, guid: 665fad37e98b14a128688684c98254f5,
       type: 3}
     amount: 4
+  - prefab: {fileID: 5027221036910822030, guid: df4e46a026a704b7ea3391157b82cafc,
+      type: 3}
+    amount: 4
   goodItems:
   - prefab: {fileID: 2359532718083456482, guid: 24d328c8a0f3c4ca885c0cbbf3b7c221,
       type: 3}
-    amount: 1
+    amount: 2
   - prefab: {fileID: 8314894712676183599, guid: 1e2b680db743d4075b982e8dd05ecc94,
       type: 3}
-    amount: 1
+    amount: 2
   - prefab: {fileID: 4962587270746416363, guid: 7e6a65589ad3b476890450304a9e4989,
       type: 3}
-    amount: 1
+    amount: 2
   - prefab: {fileID: 5959050320737914144, guid: d4473150615574d9b8f0d55d5f2e434f,
       type: 3}
-    amount: 1
+    amount: 2
   - prefab: {fileID: 3162151869615861236, guid: 062d1ec8f252849639ec4846c1e50565,
       type: 3}
-    amount: 4
+    amount: 1
+  - prefab: {fileID: 7020624550460974035, guid: 078e7bbb5704744d1a9dc63adbcb70a5,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 8476839642986198081, guid: 96f888576766249bdbae69b355758725,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 2799770823782624095, guid: 256b090a64aab4f8aa8c7b8543ccd6d2,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 3161174737246026706, guid: dbd062ac21ec54c098f5629d4641ef54,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 7334957245825317717, guid: 30ea9bb69bc7d4c2d86414c5853ff68f,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 7131874126257255579, guid: 5b6965b43660847e3ada8b3cd068c82d,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 2833495262938199928, guid: 5a2229a9b51154a25a858b559085b18f,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 2927968517791095298, guid: bb932b908d51646e1b6826937dc88c25,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 855765811423231274, guid: 5c287bdd892604bbfb5ebd70079f8f5f, type: 3}
+    amount: 2
+  - prefab: {fileID: 7514143337775473629, guid: a386317fbd59b43cab176fff11977cc8,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 3132357197407192194, guid: d38efe823e700469e8d844d77fd7d86f,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 218237942188182438, guid: 1afae24751cec4023827bc4e6a67e2f9, type: 3}
+    amount: 2
+  - prefab: {fileID: 2974712085639639517, guid: 945dcea142aca4d22a03bb1c0507905a,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 5419485827612385852, guid: 3892fcce83f6746e086340a1d01bdabb,
+      type: 3}
+    amount: 1
+  - prefab: {fileID: 1188480252985620873, guid: d3c91891a03da483f90d59721ec8a4dc,
+      type: 3}
+    amount: 2
+  - prefab: {fileID: 7198015841622409673, guid: e08022713312246b59e9e624b3f1f204,
+      type: 3}
+    amount: 1
   pooledItems: []
 --- !u!1 &1763844329
 GameObject:

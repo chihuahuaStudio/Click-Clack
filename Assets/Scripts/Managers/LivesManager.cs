@@ -36,7 +36,7 @@ public class LivesManager : MonoBehaviour
 
         if(LivesLeft == 0)
         {
-            gameOverText.gameObject.SetActive(true);
+            // gameOverText.gameObject.SetActive(true);
             LivesLeft = 3;
         }
         

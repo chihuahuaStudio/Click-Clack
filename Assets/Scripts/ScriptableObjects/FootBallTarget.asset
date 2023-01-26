@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8af096c313e246e19c2a321a7c767d6, type: 3}
   m_Name: FootBallTarget
   m_EditorClassIdentifier: 
-  pointValue: 5
+  pointValue: 2

@@ -12,26 +12,28 @@ public class ParticleExplosion : MonoBehaviour
 
         if(collision.gameObject.CompareTag("Good"))
         {
-            GoodTargetExplsion();
+            // GoodTargetExplsion();
+            int explosionIndex = Random.Range(0, goodExplosions.Length);
+            Instantiate(goodExplosions[explosionIndex], collision.transform.position, 
+                Quaternion.identity);
         }
         
         if(collision.gameObject.CompareTag("Bad"))
         {
-            BadTargetExplsion();
+            // BadTargetExplsion();
+            int explosionIndex = Random.Range(0, badExplosions.Length);
+            Instantiate(badExplosions[explosionIndex], collision.transform.position,
+                Quaternion.identity);
         }
     }
 
     private void GoodTargetExplsion()
     {
-        int explosionIndex = Random.Range(0, goodExplosions.Length);
-        Instantiate(goodExplosions[explosionIndex], transform.position, 
-            Quaternion.identity);
+
     }
     
     private void BadTargetExplsion()
     {
-        int explosionIndex = Random.Range(0, badExplosions.Length);
-        Instantiate(badExplosions[explosionIndex], transform.position,
-            Quaternion.identity);
+   
     }
 }

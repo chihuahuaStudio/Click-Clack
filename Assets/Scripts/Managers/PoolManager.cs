@@ -18,7 +18,8 @@ public class PoolManager : MonoBehaviour
     [Header("List of items to pool")]
     [SerializeField] private List<PoolItems> badItems;
     [SerializeField] private List<PoolItems> goodItems;
-    [Header("List of pooled items")]
+
+    [Header("List of pooled items")] 
     [SerializeField] private List<GameObject> pooledItems;
 
     private Transform _transform;
@@ -33,9 +34,11 @@ public class PoolManager : MonoBehaviour
 
         Singleton = this;
         _transform = transform;
-    }
 
-    // Start is called before the first frame update
+        pooledItems = new List<GameObject>();
+
+    }
+    
     void Start()
     {
         PopulateBadItemList();
@@ -44,8 +47,8 @@ public class PoolManager : MonoBehaviour
     
     private void PopulateBadItemList()
     {
-        GameObject badItemsChild = Instantiate(new GameObject("BadItems"), _transform);
-        Transform badTransform = badItemsChild.transform;
+        GameObject badItemsParentGameObject = Instantiate(new GameObject("BadItems"), _transform);
+        Transform badTransform = badItemsParentGameObject.transform;
         if (badItems.Count > 0)
         {
             foreach (var badItem in badItems)
@@ -63,8 +66,8 @@ public class PoolManager : MonoBehaviour
     private void PopulateGoodItemList()
     {
         
-        GameObject goodItemsChild = Instantiate(new GameObject("GoodItems"), _transform);
-        Transform goodTransform = goodItemsChild.transform;
+        GameObject goodItemsParentGameObject = Instantiate(new GameObject("GoodItems"), _transform);
+        Transform goodTransform = goodItemsParentGameObject.transform;
         
         if (goodItems.Count > 0)
         {

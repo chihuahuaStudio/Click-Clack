@@ -28,16 +28,11 @@ public class VolumeControls : MonoBehaviour
         masterSlider.value = PlayerPrefs.GetFloat(masterParameter, masterSlider.value);
         musicSlider.value = PlayerPrefs.GetFloat(musicParameter, musicSlider.value);
         sfxSlider.value = PlayerPrefs.GetFloat(sfxParameter, sfxSlider.value);
+        
+        DefaultVolumeValues();
+      
     }
-
-    private void Start()
-    {
-        masterSlider.value = DEFAULT_SLIDER_VALUE;
-        musicSlider.value = DEFAULT_SLIDER_VALUE;
-        sfxSlider.value = DEFAULT_SLIDER_VALUE;
-
-    }
-
+    
     private void SFXVolumeControl(float arg0)
     {
         AkSoundEngine.SetRTPCValue("SFX_Volume", sfxSlider.value);
@@ -71,5 +66,12 @@ public class VolumeControls : MonoBehaviour
         PlayerPrefs.SetFloat(masterParameter, masterSlider.value);
         PlayerPrefs.SetFloat(musicParameter, musicSlider.value);
         PlayerPrefs.SetFloat(sfxParameter, sfxSlider.value);
+    }
+
+    private void DefaultVolumeValues()
+    {
+        masterSlider.value = DEFAULT_SLIDER_VALUE;
+        musicSlider.value = DEFAULT_SLIDER_VALUE;
+        sfxSlider.value = DEFAULT_SLIDER_VALUE;
     }
 }

@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8af096c313e246e19c2a321a7c767d6, type: 3}
-  m_Name: RedBallTarget
+  m_Name: SoccerBallTarget
   m_EditorClassIdentifier: 
   pointValue: 2
