@@ -39,6 +39,7 @@ public class PauseManager : MonoBehaviour
         if(Input.GetKeyDown(pauseKey))
         {
             isGamePaused = true;
+            AudioCalls.Singleton.PostWwisePauseEvent();
             Time.timeScale = PAUSE_VALUE;
             UIManager.Singleton.ShowPauseScreen();
         }
@@ -50,6 +51,7 @@ public class PauseManager : MonoBehaviour
         if(Input.GetKeyDown(pauseKey))
         {
             isGamePaused = false;
+            AudioCalls.Singleton.PostWwiseUnPauseEvent();
             Time.timeScale = UNPAUSE_VALUE;
             UIManager.Singleton.HidePauseScreen();
         }

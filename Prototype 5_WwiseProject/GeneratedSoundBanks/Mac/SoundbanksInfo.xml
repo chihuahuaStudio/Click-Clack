@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="89505537" Type="User" Language="SFX" Hash="{D9F7D55C-3B21-47B8-7B1A-164B3E3E95B0}">
+		<SoundBank Id="89505537" Type="User" Language="SFX" Hash="{C2532C04-F6E5-3F9B-910C-E3B037196A3B}">
 			<ShortName>Gameplay</ShortName>
 			<Path>Gameplay.bnk</Path>
 			<Media>
@@ -87,6 +87,7 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2518961899" Name="Pause_Effect" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2004433286" Name="Play_Bomb_Target" DurationType="OneShot" DurationMin="0.7342223" DurationMax="1.4527866">
 					<MediaRefs>
 						<MediaRef Id="167538311"/>
@@ -129,12 +130,13 @@
 						<AuxBusRef Id="3792279061" Name="SFX_reverb"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="988510166" Name="UnPause_Effect" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
 				<GameParameter Id="1564184899" Name="SFX_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1E3C1E80-9209-B43A-2726-3ACDDE91F12D}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1A1BADFD-320A-99DA-26DB-724B8DFB5D86}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -163,6 +165,7 @@
 			<GameParameters>
 				<GameParameter Id="1006694123" Name="Music_Volume"/>
 				<GameParameter Id="1564184899" Name="SFX_Volume"/>
+				<GameParameter Id="3673924897" Name="Pause_RTPC"/>
 				<GameParameter Id="3710016230" Name="Music_Playback"/>
 				<GameParameter Id="4179668880" Name="Master_Volume"/>
 			</GameParameters>
@@ -388,5 +391,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5DA56229-6CC5-8D95-3A64-D52A5CE47174}</FileHash>
+	<FileHash>{71EE7DB1-FC75-F508-F1EB-272EC60FB6E1}</FileHash>
 </SoundBanksInfo>

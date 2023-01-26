@@ -248,8 +248,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: -1.407641, y: 2.17, z: 0.01183891}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!96 &7065526
 TrailRenderer:
   serializedVersion: 2
@@ -259,8 +259,8 @@ TrailRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7065523}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 0
@@ -292,7 +292,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 0.25
+  m_Time: 0.5
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -301,7 +301,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.5566044
+        value: 0.70475197
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -323,21 +323,21 @@ TrailRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0, g: 0.007030964, b: 1, a: 1}
-      key1: {r: 0.0141509175, g: 0.1232521, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
-      key6: {r: 0, g: 0, b: 0, a: 0}
-      key7: {r: 0, g: 0, b: 0, a: 0}
+      key1: {r: 0.015686274, g: 0.86720896, b: 1, a: 1}
+      key2: {r: 0.015686274, g: 1, b: 0.23188213, a: 0}
+      key3: {r: 0.84173083, g: 0.85882354, b: 0.015686266, a: 0}
+      key4: {r: 0.69411767, g: 0.5430641, b: 0.23921567, a: 0}
+      key5: {r: 1, g: 0.25469354, b: 0, a: 0}
+      key6: {r: 1, g: 0, b: 0.76097584, a: 0}
+      key7: {r: 0.8210758, g: 0.015686274, b: 1, a: 0}
       ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
+      ctime1: 7517
+      ctime2: 16577
+      ctime3: 24479
+      ctime4: 33731
+      ctime5: 47224
+      ctime6: 58789
+      ctime7: 65535
       atime0: 0
       atime1: 65535
       atime2: 0
@@ -346,11 +346,11 @@ TrailRenderer:
       atime5: 0
       atime6: 0
       atime7: 0
-      m_Mode: 1
-      m_NumColorKeys: 2
+      m_Mode: 0
+      m_NumColorKeys: 8
       m_NumAlphaKeys: 2
     numCornerVertices: 0
-    numCapVertices: 0
+    numCapVertices: 3
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
@@ -804,6 +804,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &100001421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100001422}
+  - component: {fileID: 100001423}
+  m_Layer: 0
+  m_Name: AudioCalls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &100001422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100001421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 493186367}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &100001423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100001421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346802c791acc4851b154113c83b591f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3a700b126a5d64470affc54d37c9a157,
+      type: 2}
+  unPauseWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2d53f739a490842d4adeef84e3ec445d,
+      type: 2}
 --- !u!1 &100160543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,7 +2503,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 77f2fa5c779c34ab9ad50e39ebe0bacf, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2503,6 +2557,7 @@ Transform:
   - {fileID: 2076063040}
   - {fileID: 1612635046}
   - {fileID: 382798907}
+  - {fileID: 100001422}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2983,6 +3038,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84e3395ee001a46c4ae4352c3cbd3706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  randomForceMin1: 13
+  randomForceMax: 14
+  torqueForce: 20
+  xMinSpawnPos: 4
+  yMinSpawnPos: 2
 --- !u!1 &695654285
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,8 +6249,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 132203159}
-        m_TargetAssemblyTypeName: 
+      - m_Target: {fileID: 971516968}
+        m_TargetAssemblyTypeName: ApplicationManager, Main
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -6793,7 +6853,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 77f2fa5c779c34ab9ad50e39ebe0bacf, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7328,56 +7388,56 @@ MonoBehaviour:
   goodItems:
   - prefab: {fileID: 2359532718083456482, guid: 24d328c8a0f3c4ca885c0cbbf3b7c221,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 8314894712676183599, guid: 1e2b680db743d4075b982e8dd05ecc94,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 4962587270746416363, guid: 7e6a65589ad3b476890450304a9e4989,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 5959050320737914144, guid: d4473150615574d9b8f0d55d5f2e434f,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 3162151869615861236, guid: 062d1ec8f252849639ec4846c1e50565,
       type: 3}
     amount: 1
   - prefab: {fileID: 7020624550460974035, guid: 078e7bbb5704744d1a9dc63adbcb70a5,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 8476839642986198081, guid: 96f888576766249bdbae69b355758725,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 2799770823782624095, guid: 256b090a64aab4f8aa8c7b8543ccd6d2,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 3161174737246026706, guid: dbd062ac21ec54c098f5629d4641ef54,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 7334957245825317717, guid: 30ea9bb69bc7d4c2d86414c5853ff68f,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 7131874126257255579, guid: 5b6965b43660847e3ada8b3cd068c82d,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 2833495262938199928, guid: 5a2229a9b51154a25a858b559085b18f,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 2927968517791095298, guid: bb932b908d51646e1b6826937dc88c25,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 855765811423231274, guid: 5c287bdd892604bbfb5ebd70079f8f5f, type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 7514143337775473629, guid: a386317fbd59b43cab176fff11977cc8,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 3132357197407192194, guid: d38efe823e700469e8d844d77fd7d86f,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 218237942188182438, guid: 1afae24751cec4023827bc4e6a67e2f9, type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 2974712085639639517, guid: 945dcea142aca4d22a03bb1c0507905a,
       type: 3}
-    amount: 2
+    amount: 1
   - prefab: {fileID: 5419485827612385852, guid: 3892fcce83f6746e086340a1d01bdabb,
       type: 3}
     amount: 1

@@ -36,6 +36,38 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Pause_Effect" ID="{C2911FD1-5CC4-4EC8-8E81-5142C3A2C1EB}">
+					<ChildrenList>
+						<Action Name="" ID="{2ABA3BC9-B217-4BD0-A065-570300B17569}" ShortID="193848363">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+								<Property Name="Lowpass" Type="int16" Value="27"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pause_RTPC" ID="{4F61E0C9-B8FF-431F-9A8B-6EB168BFB7DE}" WorkUnitID="{7E6C7FEC-1A5C-4BB2-8712-5FC2D22F1A3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnPause_Effect" ID="{B4628022-361D-4B22-8013-809C11972E05}">
+					<ChildrenList>
+						<Action Name="" ID="{8F480656-A1C7-40D4-9F5C-04CE2FB8D9AD}" ShortID="389847499">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="27"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{5DC80608-C313-4165-A998-C9FDE4B1F08A}" WorkUnitID="{2622A4AE-2BED-424A-8678-CE722117043E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

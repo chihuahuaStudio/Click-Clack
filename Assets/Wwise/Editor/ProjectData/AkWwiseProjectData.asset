@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 83672092201e6843b3351b6578aa94ec
     GuidInternal: 
-    m_lastTime: -8585281356206869299
+    m_lastTime: -8585268530775373423
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -120,7 +120,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 02c60956549ccb46bf953cf125b14122
     GuidInternal: 
-    m_lastTime: -8585281356206643527
+    m_lastTime: -8585268583421365982
     List:
     - name: Gameplay
       guid: 8115e86c1df8394987489ba76f24a36d
@@ -192,8 +192,28 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit/Gameplay
     guid: 6caa24b97cb1f944aa8d7485327478e6
     GuidInternal: 
-    m_lastTime: -8585281356206597166
+    m_lastTime: -8585268533575534442
     List:
+    - name: Pause_Effect
+      guid: d11f91c2c45cc84e8e815142c3a2c1eb
+      id: 2518961899
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b5fbec0e804a1840bc4037e30afe9358
+      - ElementName: Gameplay
+        ObjectType: 12
+        guid: 6caa24b97cb1f944aa8d7485327478e6
+      - ElementName: Pause_Effect
+        ObjectType: 3
+        guid: d11f91c2c45cc84e8e815142c3a2c1eb
+      Path: Events/Default Work Unit/Gameplay/Pause_Effect
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Bomb_Target
       guid: 775223dfc746ad44bc328118d660501d
       id: 2004433286
@@ -212,8 +232,8 @@ MonoBehaviour:
         guid: 775223dfc746ad44bc328118d660501d
       Path: Events/Default Work Unit/Gameplay/Play_Bomb_Target
       maxAttenuation: 0
-      maxDuration: 1.452787
-      minDuration: 0.734222
+      maxDuration: -1
+      minDuration: -1
     - name: Play_GoodTarget_Sound
       guid: a872d7c5a1b50246bf49e76e73f5065d
       id: 1273958970
@@ -232,8 +252,8 @@ MonoBehaviour:
         guid: a872d7c5a1b50246bf49e76e73f5065d
       Path: Events/Default Work Unit/Gameplay/Play_GoodTarget_Sound
       maxAttenuation: 0
-      maxDuration: 0.50254
-      minDuration: 0.142822
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Target_throw
       guid: 335c9093ab9bd240a897d533188627a7
       id: 3024796816
@@ -252,8 +272,28 @@ MonoBehaviour:
         guid: 335c9093ab9bd240a897d533188627a7
       Path: Events/Default Work Unit/Gameplay/Play_Target_throw
       maxAttenuation: 0
-      maxDuration: 0.689726
-      minDuration: 0.217103
+      maxDuration: -1
+      minDuration: -1
+    - name: UnPause_Effect
+      guid: 228062b41d36224b8013809c11972e05
+      id: 988510166
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b5fbec0e804a1840bc4037e30afe9358
+      - ElementName: Gameplay
+        ObjectType: 12
+        guid: 6caa24b97cb1f944aa8d7485327478e6
+      - ElementName: UnPause_Effect
+        ObjectType: 3
+        guid: 228062b41d36224b8013809c11972e05
+      Path: Events/Default Work Unit/Gameplay/UnPause_Effect
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events/Music.wwu
     PathAndIcons:
     - ElementName: Events
@@ -556,7 +596,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit/Music
     guid: ec7f6c7e5c1ab24b87125fc2d22f1a3e
     GuidInternal: 
-    m_lastTime: -8585281356206208650
+    m_lastTime: -8585268533575478415
     List:
     - name: Music_Playback
       guid: 0edbfad98373714cb676967599a99b40
@@ -575,6 +615,23 @@ MonoBehaviour:
         ObjectType: 13
         guid: 0edbfad98373714cb676967599a99b40
       Path: Game Parameters/Default Work Unit/Music/Music_Playback
+    - name: Pause_RTPC
+      guid: c9e0614fffb81f439a8b6eb168bfb7de
+      id: 3673924897
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 83a9df8cde1e1a4091ff647803cc6c03
+      - ElementName: Music
+        ObjectType: 12
+        guid: ec7f6c7e5c1ab24b87125fc2d22f1a3e
+      - ElementName: Pause_RTPC
+        ObjectType: 13
+        guid: c9e0614fffb81f439a8b6eb168bfb7de
+      Path: Game Parameters/Default Work Unit/Music/Pause_RTPC
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
@@ -748,7 +805,7 @@ MonoBehaviour:
     m_lastTime: -8585281356205769741
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 050000000600000007000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

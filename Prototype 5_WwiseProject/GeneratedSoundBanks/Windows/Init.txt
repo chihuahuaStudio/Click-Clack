@@ -10,6 +10,7 @@ State	ID	Name	State Group			Notes
 	4158285989	GameOver	Music			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	3673924897	Pause_RTPC			\Default Work Unit\Music\Pause_RTPC	
 	4179668880	Master_Volume			\Default Work Unit\Master_Volume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes

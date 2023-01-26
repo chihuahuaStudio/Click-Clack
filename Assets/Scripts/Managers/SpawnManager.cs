@@ -38,8 +38,8 @@ public class SpawnManager : MonoBehaviour
     {
         Vector3 force = RandomForce();
         _targetRb.transform .localPosition = RandomSpawnPosition() ;
-        _targetRb.AddRelativeForce(force, ForceMode.Impulse);
-        _targetRb.AddRelativeTorque(RandomTorque(), 
+        _targetRb.AddForce(force, ForceMode.Impulse);
+        _targetRb.AddTorque(RandomTorque(), 
             RandomTorque(), 
             RandomTorque(), 
             ForceMode.Impulse);

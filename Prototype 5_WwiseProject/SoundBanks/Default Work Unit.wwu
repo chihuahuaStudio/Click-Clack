@@ -22,6 +22,8 @@
 						<ObjectRef Name="Play_Target_throw" ID="{93905C33-9BAB-40D2-A897-D533188627A7}" WorkUnitID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Bomb_Target" ID="{DF235277-46C7-44AD-BC32-8118D660501D}" WorkUnitID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GoodTarget_Sound" ID="{C5D772A8-B5A1-4602-BF49-E76E73F5065D}" WorkUnitID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UnPause_Effect" ID="{B4628022-361D-4B22-8013-809C11972E05}" WorkUnitID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_Effect" ID="{C2911FD1-5CC4-4EC8-8E81-5142C3A2C1EB}" WorkUnitID="{B924AA6C-B17C-44F9-AA8D-7485327478E6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

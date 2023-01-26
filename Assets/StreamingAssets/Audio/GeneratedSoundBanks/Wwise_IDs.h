@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID GAMEOVER = 4158285989U;
+        static const AkUniqueID PAUSE_EFFECT = 2518961899U;
         static const AkUniqueID PLAY_BOMB_TARGET = 2004433286U;
         static const AkUniqueID PLAY_GOODTARGET_SOUND = 1273958970U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
@@ -26,6 +27,7 @@ namespace AK
         static const AkUniqueID UI_BUTTON_MEDIUM = 2414566500U;
         static const AkUniqueID UI_BUTTON_QUIT = 4235982132U;
         static const AkUniqueID UI_BUTTON_RESTART = 3527493374U;
+        static const AkUniqueID UNPAUSE_EFFECT = 988510166U;
     } // namespace EVENTS
 
     namespace STATES
@@ -52,6 +54,7 @@ namespace AK
         static const AkUniqueID MASTER_VOLUME = 4179668880U;
         static const AkUniqueID MUSIC_PLAYBACK = 3710016230U;
         static const AkUniqueID MUSIC_VOLUME = 1006694123U;
+        static const AkUniqueID PAUSE_RTPC = 3673924897U;
         static const AkUniqueID SFX_VOLUME = 1564184899U;
     } // namespace GAME_PARAMETERS
 

@@ -23,8 +23,7 @@ public class PoolManager : MonoBehaviour
     [SerializeField] private List<GameObject> pooledItems;
 
     private Transform _transform;
-
-
+    
     private void Awake()
     {
         if (Singleton != null)
@@ -56,6 +55,8 @@ public class PoolManager : MonoBehaviour
                 for (int i = 0; i < badItem.amount; i++)
                 {
                     GameObject go = Instantiate(badItem.prefab, badTransform);
+                    go.transform.localPosition = transform.position;
+                    go.transform.localRotation = Quaternion.identity;
                     go.SetActive(false);
                     pooledItems.Add(go);
                 }
@@ -87,13 +88,15 @@ public class PoolManager : MonoBehaviour
     public GameObject TakeItem()
     {
         int index = Random.Range(0, pooledItems.Count);
-
         for (int i = 0; i < pooledItems.Count; i++)
         {
             GameObject target = pooledItems[i];
-            if (!target.activeInHierarchy) return pooledItems[index];
-        }
 
+            if (!target.activeInHierarchy)
+            {
+                if(!pooledItems[index].activeInHierarchy) return pooledItems[index];
+            }
+        }
         return null;
     }
 }

@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	988510166	UnPause_Effect			\Default Work Unit\Gameplay\UnPause_Effect	
 	1273958970	Play_GoodTarget_Sound			\Default Work Unit\Gameplay\Play_GoodTarget_Sound	
 	2004433286	Play_Bomb_Target			\Default Work Unit\Gameplay\Play_Bomb_Target	
+	2518961899	Pause_Effect			\Default Work Unit\Gameplay\Pause_Effect	
 	3024796816	Play_Target_throw			\Default Work Unit\Gameplay\Play_Target_throw	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

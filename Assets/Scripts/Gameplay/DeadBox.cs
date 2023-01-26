@@ -10,7 +10,7 @@ public class DeadBox : MonoBehaviour
         if (!other.gameObject.CompareTag("Bad"))
         {
             GameManager.Singleton.GameOver();
-            LivesManager.UpdateLivesLeft();
+            // LivesManager.UpdateLivesLeft();
         }
     }
 

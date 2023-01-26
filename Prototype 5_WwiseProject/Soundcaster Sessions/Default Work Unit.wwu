@@ -9,12 +9,12 @@
 							<ObjectRef Name="Music" ID="{5DC80608-C313-4165-A998-C9FDE4B1F08A}" WorkUnitID="{2622A4AE-2BED-424A-8678-CE722117043E}"/>
 							<Position X="0" Y="0"/>
 						</Module>
-						<Module>
-							<ObjectRef Name="GameOver" ID="{BBE6CB7E-5F83-4816-BC87-CFADD4A9A5DE}" WorkUnitID="{F353055B-1BE0-4E01-9C83-737302165535}"/>
-							<Position X="1" Y="0"/>
-						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Pause_RTPC" ID="{4F61E0C9-B8FF-431F-9A8B-6EB168BFB7DE}"/>
+							<Value>100</Value>
+						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Master_Volume" ID="{E3FF5390-92A4-435D-AFF3-74B67A3DE2D6}"/>
 							<Value>100</Value>
@@ -33,7 +33,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="UI" ID="{5E1D734E-CAE9-4852-B215-D6CAC94C4A25}"/>
+						<CurrentStateRef Name="None" ID="{ABA22D17-DC44-4571-BA06-032118EF3168}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

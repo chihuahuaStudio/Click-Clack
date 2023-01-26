@@ -1,6 +1,5 @@
-﻿using System;
-using UnityEngine;
-using Random = UnityEngine.Random;
+﻿using UnityEngine;
+
 
 
 public class TargetScript : MonoBehaviour
@@ -14,7 +13,7 @@ public class TargetScript : MonoBehaviour
     
     private void OnDisable()
     {
-        transform.rotation = Quaternion.identity;
+        transform.Rotate(Vector3.up);
         _targetRb.velocity = Vector3.zero;
     }
 
