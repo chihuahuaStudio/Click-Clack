@@ -24,22 +24,22 @@ public class Countdowns : MonoBehaviour
     private IEnumerator CountdownCoroutine()
     {
         UIManager.Singleton.ShowCountdownScreen();
+
         while (countdownStartValue > 0)
         {
             UIManager.Singleton.UpdateCountdownText(countdownStartValue);
             countdownStartValue--;
             yield return new WaitForSecondsRealtime(1.0f);
         }
-   
+        UIManager.Singleton.HideCountdownScreen();
+
         if (countdownStartValue == 0 && !GameManager.Singleton.isArcadeMode)
         {
-            UIManager.Singleton.HideCountdownScreen();
             GameManager.Singleton.StartGamePlayMode();
         }
 
         if (GameManager.Singleton.isArcadeMode)
         {
-            UIManager.Singleton.HideCountdownScreen();
             GameManager.Singleton.StartGameArcadeMode();
             StartTimeLeftCoroutine();
         }
@@ -48,7 +48,6 @@ public class Countdowns : MonoBehaviour
     
     private IEnumerator TimeLeftCoroutine()
     {
-        UIManager.Singleton.ShowTimeLefttScreen();
         while (timeLeftStartValue > 0)
         {
             UIManager.Singleton.UpdateTimeLeftText(timeLeftStartValue);
@@ -58,7 +57,7 @@ public class Countdowns : MonoBehaviour
    
         if (countdownStartValue == 0)
         {
-            UIManager.Singleton.HideTimeLeftScreen();
+          
             GameManager.Singleton.GameOver();
         }
       

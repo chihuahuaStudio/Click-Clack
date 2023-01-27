@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     [Header("Game Manager Settings")]
     public GameObject startMusic;
     public bool isGameActive;
+    public bool isPayMode;
     public bool isArcadeMode;
     
     
@@ -44,6 +45,7 @@ public class GameManager : MonoBehaviour
         isGameActive = false;
         isArcadeMode = false;
         Cursor.visible = true;
+        UIManager.Singleton.HideTimeLeftScreen();
         UIManager.Singleton.ShowGameOverScreen();
         AkSoundEngine.PostEvent("GameOver", startMusic);
     }
@@ -64,6 +66,8 @@ public class GameManager : MonoBehaviour
     public void StartGameArcadeMode()
     {
         isGameActive = true;
+        UIManager.Singleton.ShowScore();
+        UIManager.Singleton.ShowTimeLefttScreen();
         SpawnManager.Singleton.StartSpawning();
         
     }
@@ -71,6 +75,11 @@ public class GameManager : MonoBehaviour
     public void SetArcadeMode()
     {
         isArcadeMode = true;
+    }
+
+    public void SetPlayMode()
+    {
+        isPayMode = true;
     }
     
 
