@@ -1,26 +1,48 @@
-using System;
 using UnityEngine;
 using TMPro;
-using UnityEngine.Serialization;
 
+
+/// <summary>
+/// This class Haandles the UI screens and diplays
+/// </summary>
 public class UIManager : MonoBehaviour
 {
-    public static UIManager Singleton { get; private set; }
     
-    [FormerlySerializedAs("startScreen")]
-    [Header("UI Manager Settings")]
+    /// <summary>
+    /// Singleton declaration
+    /// </summary>
+    public static UIManager Singleton { get; private set; }
+
+    #region class fields
+    
+    /// <summary>
+    /// UI Manager field declarations
+    /// </summary>
+    [Header("UI Manager Screen References")]
     [SerializeField] private GameObject startScreenInteractables;
     [SerializeField] private GameObject startScreenText;
-    [FormerlySerializedAs("helpScreen")] [SerializeField] private GameObject helpScreenInteractables;
+    [SerializeField] private GameObject helpScreenInteractables;
     [SerializeField] private GameObject helpScreenText;
-    [FormerlySerializedAs("audioScreen")] [SerializeField] private GameObject audioScreenInteractables;
+    [SerializeField] private GameObject audioScreenInteractables;
     [SerializeField] private GameObject audioScreenText;
-    [FormerlySerializedAs("pauseScreen")] [SerializeField] private GameObject pauseScreenInteractables;
+    [SerializeField] private GameObject pauseScreenInteractables;
     [SerializeField] private GameObject pauseScreenText;
-    [FormerlySerializedAs("scoreText")] [SerializeField] private GameObject scoreTextInteractbles;
-    [FormerlySerializedAs("gameOverText")] [SerializeField] private GameObject gameOverScreenInteractables;
+    [SerializeField] private GameObject scoreTextInteractbles;
+    [SerializeField] private GameObject gameOverScreenInteractables;
     [SerializeField] private GameObject gameOverScreenText;
-    // [SerializeField] private TextMeshProUGUI scoreText;
+    [SerializeField] private GameObject countdownScreen;
+    [SerializeField] private GameObject timeLeftCountdownScreen;
+
+    [Header("UI Manager Text References")] 
+    [SerializeField] private TextMeshProUGUI countdownText;
+    [SerializeField] private TextMeshProUGUI timeLeftText;
+
+
+    
+
+    #endregion
+
+    #region Mono
 
     private void Awake()
     {
@@ -37,6 +59,11 @@ public class UIManager : MonoBehaviour
         ShowStartScreen();
     }
 
+    #endregion
+
+    #region Custom methods
+
+    
     public void HideStartScreen()
     {
         startScreenInteractables.SetActive(false);
@@ -108,10 +135,37 @@ public class UIManager : MonoBehaviour
         gameOverScreenText.SetActive(false);
     }
 
-    // public void UpdateScoreText(int score)
-    // {
-    //     scoreText.text = "Score: " +  score;
-    // }
+    public void ShowCountdownScreen()
+    {
+        countdownScreen.SetActive(true);
+    }
+
+    public void HideCountdownScreen()
+    {
+        countdownScreen.SetActive(false);
+    }
     
+    public void UpdateCountdownText(int starValue)
+    {
+        countdownText.text = starValue.ToString();
+    }
+
+    public void ShowTimeLefttScreen()
+    {
+        timeLeftCountdownScreen.SetActive(true);
+    }
+
+    public void HideTimeLeftScreen()
+    {
+        timeLeftCountdownScreen.SetActive(false);
+    }
+
+    public void UpdateTimeLeftText(int timeLeft)
+    {
+        timeLeftText.text = $"{timeLeft.ToString()} secs";
+    }
+    
+
+    #endregion
     
 }

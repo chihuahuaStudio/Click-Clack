@@ -7,10 +7,7 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class GameManager : MonoBehaviour
 {
-    #region Class fields
-
-    
-
+    #region Class field
     
     /// <summary>
     /// Singleton instance of this class
@@ -20,6 +17,7 @@ public class GameManager : MonoBehaviour
     [Header("Game Manager Settings")]
     public GameObject startMusic;
     public bool isGameActive;
+    public bool isArcadeMode;
     
     
     #endregion
@@ -44,6 +42,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         isGameActive = false;
+        isArcadeMode = false;
         Cursor.visible = true;
         UIManager.Singleton.ShowGameOverScreen();
         AkSoundEngine.PostEvent("GameOver", startMusic);
@@ -55,10 +54,23 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void StartGame()
+    public void StartGamePlayMode()
     {
         isGameActive = true;
         UIManager.Singleton.ShowScore();
+        SpawnManager.Singleton.StartSpawning();
+    }
+
+    public void StartGameArcadeMode()
+    {
+        isGameActive = true;
+        SpawnManager.Singleton.StartSpawning();
+        
+    }
+
+    public void SetArcadeMode()
+    {
+        isArcadeMode = true;
     }
     
 

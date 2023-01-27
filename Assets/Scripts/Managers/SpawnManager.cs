@@ -1,10 +1,14 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 
 public class SpawnManager : MonoBehaviour
 {
+    public static SpawnManager Singleton { get; private set; }
+    
     [FormerlySerializedAs("RandomForceMin1")]
     [Header("Target Spawn Settings")]
     [SerializeField] private int randomForceMin1;
@@ -13,7 +17,17 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private float xMinSpawnPos;
      [SerializeField] private float yMinSpawnPos;
 
-    public void StartSpawning()
+     private void Awake()
+     {
+         if (Singleton != null)
+         {
+             Destroy(gameObject);
+         }
+
+         Singleton = this;
+     }
+
+     public void StartSpawning()
     {
         StartCoroutine(SpawnTarget());
     }
